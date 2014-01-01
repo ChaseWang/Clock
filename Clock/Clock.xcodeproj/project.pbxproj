@@ -26,6 +26,7 @@
 		93D7AE8F186FC8040044ABDB /* CLClockView.m in Sources */ = {isa = PBXBuildFile; fileRef = 93D7AE8E186FC8040044ABDB /* CLClockView.m */; };
 		93D7AE92186FC8350044ABDB /* CLClockCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 93D7AE91186FC8350044ABDB /* CLClockCell.m */; };
 		93D7AE95186FD2020044ABDB /* CLClockObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 93D7AE94186FD2020044ABDB /* CLClockObject.m */; };
+		93E780C41874443A00A3BF95 /* CLNotificationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E780C31874443A00A3BF95 /* CLNotificationManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +69,8 @@
 		93D7AE91186FC8350044ABDB /* CLClockCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLClockCell.m; sourceTree = "<group>"; };
 		93D7AE93186FD2020044ABDB /* CLClockObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLClockObject.h; sourceTree = "<group>"; };
 		93D7AE94186FD2020044ABDB /* CLClockObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLClockObject.m; sourceTree = "<group>"; };
+		93E780C21874443A00A3BF95 /* CLNotificationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLNotificationManager.h; sourceTree = "<group>"; };
+		93E780C31874443A00A3BF95 /* CLNotificationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLNotificationManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +145,7 @@
 		93CB808718156F5200D2CB91 /* Clock */ = {
 			isa = PBXGroup;
 			children = (
+				93E780C11874423F00A3BF95 /* Manager */,
 				93D7AE96186FD2120044ABDB /* Model */,
 				936422A31861E7DA0002390E /* View */,
 				93CB809018156F5200D2CB91 /* CLAppDelegate.h */,
@@ -191,6 +195,15 @@
 				93D7AE94186FD2020044ABDB /* CLClockObject.m */,
 			);
 			name = Model;
+			sourceTree = "<group>";
+		};
+		93E780C11874423F00A3BF95 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				93E780C21874443A00A3BF95 /* CLNotificationManager.h */,
+				93E780C31874443A00A3BF95 /* CLNotificationManager.m */,
+			);
+			name = Manager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -299,6 +312,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				93D7AE8C186FC5530044ABDB /* CLTimeShowView.m in Sources */,
+				93E780C41874443A00A3BF95 /* CLNotificationManager.m in Sources */,
 				93D7AE92186FC8350044ABDB /* CLClockCell.m in Sources */,
 				93CB808E18156F5200D2CB91 /* main.m in Sources */,
 				93CB809218156F5200D2CB91 /* CLAppDelegate.m in Sources */,

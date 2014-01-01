@@ -10,6 +10,19 @@
 
 @implementation CLClockObject
 
+- (id)initWithLocalNotification:(UILocalNotification *)notification
+{
+    if (self = [super init]) {
+        self.notification = notification;
+        self.fireDate = notification.fireDate;
+        self.soundName = notification.soundName;
+        self.repeatInterval = notification.repeatInterval;
+        self.alertBody = notification.alertBody;
+        self.isOpen = [self.fireDate isEqualToDate:[NSDate distantPast]];
+    }
+    return self;
+}
+
 - (id)initWithCoder:(NSCoder *)aDecoder
 {
     if (self = [super init]) {
