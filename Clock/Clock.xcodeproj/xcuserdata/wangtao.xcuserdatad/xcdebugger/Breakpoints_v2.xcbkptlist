@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Clock/CLViewController.m"
-            timestampString = "409674635.023733"
+            timestampString = "409982268.861236"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "33"
-            endingLineNumber = "33"
+            startingLineNumber = "58"
+            endingLineNumber = "58"
             landmarkName = "-tabbarButtonClick:type:"
             landmarkType = "5">
          </BreakpointContent>

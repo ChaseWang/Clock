@@ -7,8 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "CLClockView.h"
 #import "CLTabBarView.h"
+#import "CLClockCell.h"
 
-@interface CLViewController : UIViewController<CLTabBarDelegate>
+@interface CLViewController : UIViewController<CLTabBarDelegate,UITableViewDelegate,UITableViewDataSource>
+@property (nonatomic, strong) CLClockView *clockTableView;
 @property (nonatomic, strong) CLTabBarView *tabBarView;
 @end

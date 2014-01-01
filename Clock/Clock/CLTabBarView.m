@@ -24,6 +24,7 @@
     self = [super initWithFrame:frame];
     if (self) {
         // Initialization code
+        self.backgroundColor = [UIColor clearColor];
     }
     return self;
 }
@@ -51,6 +52,8 @@
         _recommendButton = [[UIButton alloc]init];
         _recommendButton.tag = CLTabBarTypeRecommend + CLTABBARVIEW_BUTTON_TAG;
         [_recommendButton setTitle:@"推荐" forState:UIControlStateNormal];
+        [_recommendButton setTitleColor:[UIColor grayColor] forState:UIControlStateNormal];
+        [_recommendButton setTitleColor:[UIColor whiteColor] forState:UIControlStateHighlighted];
         [_recommendButton addTarget:self action:@selector(buttonClick:) forControlEvents:UIControlEventTouchUpInside];
     }
     return _recommendButton;
@@ -62,6 +65,8 @@
         _feedBackButton = [[UIButton alloc]init];
         _feedBackButton.tag = CLTabBarTypeFeedBack + CLTABBARVIEW_BUTTON_TAG;
         [_feedBackButton setTitle:@"反馈" forState:UIControlStateNormal];
+        [_feedBackButton setTitleColor:[UIColor grayColor] forState:UIControlStateNormal];
+        [_feedBackButton setTitleColor:[UIColor whiteColor] forState:UIControlStateHighlighted];
         [_feedBackButton addTarget:self action:@selector(buttonClick:) forControlEvents:UIControlEventTouchUpInside];
     }
     return _feedBackButton;
@@ -73,6 +78,8 @@
         _settingButton = [[UIButton alloc]init];
         _settingButton.tag = CLTabBarTypeSetting + CLTABBARVIEW_BUTTON_TAG;
         [_settingButton setTitle:@"设置" forState:UIControlStateNormal];
+        [_settingButton setTitleColor:[UIColor grayColor] forState:UIControlStateNormal];
+        [_settingButton setTitleColor:[UIColor whiteColor] forState:UIControlStateHighlighted];
         [_settingButton addTarget:self action:@selector(buttonClick:) forControlEvents:UIControlEventTouchUpInside];
     }
     return _settingButton;
@@ -84,6 +91,8 @@
         _aboutButton = [[UIButton alloc]init];
         _aboutButton.tag = CLTabBarTypeAbout + CLTABBARVIEW_BUTTON_TAG;
         [_aboutButton setTitle:@"关于" forState:UIControlStateNormal];
+        [_aboutButton setTitleColor:[UIColor grayColor] forState:UIControlStateNormal];
+        [_aboutButton setTitleColor:[UIColor whiteColor] forState:UIControlStateHighlighted];
         [_aboutButton addTarget:self action:@selector(buttonClick:) forControlEvents:UIControlEventTouchUpInside];
     }
     return _aboutButton;
