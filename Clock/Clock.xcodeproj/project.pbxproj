@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		936422A21861E7D20002390E /* CLTabBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 936422A11861E7D20002390E /* CLTabBarView.m */; };
+		936D7C16187971490017A97A /* CLAddClockCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 936D7C15187971490017A97A /* CLAddClockCell.m */; };
+		936D7C1A1879730C0017A97A /* CLAddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 936D7C191879730C0017A97A /* CLAddViewController.m */; };
+		936D7C2018799C880017A97A /* CLTimeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 936D7C1F18799C880017A97A /* CLTimeView.m */; };
 		93CB808218156F5100D2CB91 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93CB808118156F5100D2CB91 /* Foundation.framework */; };
 		93CB808418156F5100D2CB91 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93CB808318156F5100D2CB91 /* CoreGraphics.framework */; };
 		93CB808618156F5100D2CB91 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93CB808518156F5100D2CB91 /* UIKit.framework */; };
@@ -42,6 +45,13 @@
 /* Begin PBXFileReference section */
 		936422A01861E7D20002390E /* CLTabBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLTabBarView.h; sourceTree = "<group>"; };
 		936422A11861E7D20002390E /* CLTabBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLTabBarView.m; sourceTree = "<group>"; };
+		936D7C14187971490017A97A /* CLAddClockCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLAddClockCell.h; sourceTree = "<group>"; };
+		936D7C15187971490017A97A /* CLAddClockCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLAddClockCell.m; sourceTree = "<group>"; };
+		936D7C181879730C0017A97A /* CLAddViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLAddViewController.h; sourceTree = "<group>"; };
+		936D7C191879730C0017A97A /* CLAddViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLAddViewController.m; sourceTree = "<group>"; };
+		936D7C1B187977D60017A97A /* CLGlobalDef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLGlobalDef.h; sourceTree = "<group>"; };
+		936D7C1E18799C880017A97A /* CLTimeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLTimeView.h; sourceTree = "<group>"; };
+		936D7C1F18799C880017A97A /* CLTimeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLTimeView.m; sourceTree = "<group>"; };
 		93CB807E18156F5100D2CB91 /* Clock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Clock.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		93CB808118156F5100D2CB91 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		93CB808318156F5100D2CB91 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -108,8 +118,21 @@
 				93D7AE8E186FC8040044ABDB /* CLClockView.m */,
 				93D7AE90186FC8350044ABDB /* CLClockCell.h */,
 				93D7AE91186FC8350044ABDB /* CLClockCell.m */,
+				936D7C14187971490017A97A /* CLAddClockCell.h */,
+				936D7C15187971490017A97A /* CLAddClockCell.m */,
+				936D7C1E18799C880017A97A /* CLTimeView.h */,
+				936D7C1F18799C880017A97A /* CLTimeView.m */,
 			);
 			name = View;
+			sourceTree = "<group>";
+		};
+		936D7C17187972DA0017A97A /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				936D7C181879730C0017A97A /* CLAddViewController.h */,
+				936D7C191879730C0017A97A /* CLAddViewController.m */,
+			);
+			name = ViewController;
 			sourceTree = "<group>";
 		};
 		93CB807518156F5100D2CB91 = {
@@ -145,6 +168,7 @@
 		93CB808718156F5200D2CB91 /* Clock */ = {
 			isa = PBXGroup;
 			children = (
+				936D7C17187972DA0017A97A /* ViewController */,
 				93E780C11874423F00A3BF95 /* Manager */,
 				93D7AE96186FD2120044ABDB /* Model */,
 				936422A31861E7DA0002390E /* View */,
@@ -155,6 +179,7 @@
 				93CB809718156F5200D2CB91 /* CLViewController.m */,
 				93CB809918156F5200D2CB91 /* Images.xcassets */,
 				93CB808818156F5200D2CB91 /* Supporting Files */,
+				936D7C1B187977D60017A97A /* CLGlobalDef.h */,
 			);
 			path = Clock;
 			sourceTree = "<group>";
@@ -312,11 +337,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				93D7AE8C186FC5530044ABDB /* CLTimeShowView.m in Sources */,
+				936D7C16187971490017A97A /* CLAddClockCell.m in Sources */,
 				93E780C41874443A00A3BF95 /* CLNotificationManager.m in Sources */,
+				936D7C1A1879730C0017A97A /* CLAddViewController.m in Sources */,
 				93D7AE92186FC8350044ABDB /* CLClockCell.m in Sources */,
 				93CB808E18156F5200D2CB91 /* main.m in Sources */,
 				93CB809218156F5200D2CB91 /* CLAppDelegate.m in Sources */,
 				93D7AE95186FD2020044ABDB /* CLClockObject.m in Sources */,
+				936D7C2018799C880017A97A /* CLTimeView.m in Sources */,
 				93CB809818156F5200D2CB91 /* CLViewController.m in Sources */,
 				93D7AE8F186FC8040044ABDB /* CLClockView.m in Sources */,
 				936422A21861E7D20002390E /* CLTabBarView.m in Sources */,

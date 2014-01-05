@@ -13,7 +13,7 @@
 @end
 @implementation CLNotificationManager
 
-- (CLNotificationManager *)sharedManager
++ (CLNotificationManager *)sharedManager
 {
     static CLNotificationManager *sharedNotificationManagerInstance = nil;
     static dispatch_once_t predicate;

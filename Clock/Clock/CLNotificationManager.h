@@ -13,5 +13,5 @@
 - (NSArray *)getAllLocalNotifications;
 - (void)deleteLocalNotification:(CLClockObject *)obj;
 - (void)saveLocalNotification:(CLClockObject *)obj;
-- (CLNotificationManager *)sharedManager;
++ (CLNotificationManager *)sharedManager;
 @end
