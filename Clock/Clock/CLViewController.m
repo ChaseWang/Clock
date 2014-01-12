@@ -78,7 +78,7 @@
         cell = [[CLClockCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:clockIdentifier];
     }
 
-    cell.timeLable.text =  [self stringFromDate:obj.clockDate];
+    cell.timeLable.text =  [obj.fireDate dateToString:@"HH:mm"];
     return cell;
 
 }

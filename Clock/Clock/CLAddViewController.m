@@ -87,8 +87,10 @@
     NSString *date = [[NSDate date]dateToString:@"yyyy-MM-dd"];
     NSString *h = [[NSDate date]dateToString:@"HH"];
     NSString *m = [[NSDate date]dateToString:@"mm"];
-    NSString *clock = [NSString stringWithFormat:@"%@ %d%@",date,[h integerValue] + 1,m];
+    NSString *clock = [NSString stringWithFormat:@"%@ %d:%@:00",date,[h integerValue] + 1,m];
     self.clock.clockDate = [NSDate dateWithString:clock format:@"yyyy-MM-dd HH:mm:ss"];
+    self.clock.fireDate = [NSDate dateWithString:clock format:@"yyyy-MM-dd HH:mm:ss"];
+    self.clock.fireDate = [[NSDate date] dateByAddingTimeInterval:10];
 }
 
 @end

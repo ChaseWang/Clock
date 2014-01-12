@@ -16,6 +16,9 @@
     if (self) {
         // Initialization code
         self.backgroundColor = [UIColor colorWithRed:215.0f/255 green:215.0f/255 blue:215.0f/255 alpha:0];
+        self.timeLable = [[UILabel alloc]initWithFrame:CGRectMake(10, 10, self.frame.size.width, 20)];
+        [self.timeLable setBackgroundColor:[UIColor clearColor]];
+        [self addSubview:self.timeLable];
     }
     return self;
 }

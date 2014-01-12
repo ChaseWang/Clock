@@ -49,7 +49,7 @@
 {
     if (obj.notification == nil) {
         UILocalNotification *notification=[[UILocalNotification alloc] init];
-        notification.fireDate = [[NSDate date] dateByAddingTimeInterval:10];
+        notification.fireDate = obj.fireDate;
         notification.timeZone = [NSTimeZone defaultTimeZone];
         notification.repeatInterval = obj.repeatInterval;
         notification.alertBody = obj.alertBody;
