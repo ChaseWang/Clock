@@ -7,5 +7,6 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "NSDate+CLAdditions.h"
 
 #define kGlobalBaseColor [UIColor colorWithRed:242.0f/255 green:242.0f/255 blue:242.0f/255 alpha:1]

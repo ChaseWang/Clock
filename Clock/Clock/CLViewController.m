@@ -90,6 +90,7 @@
 - (void)addClockButtonClick:(id)sender
 {
     CLAddViewController *addClockVC = [[CLAddViewController alloc]init];
+    addClockVC.delegate = self;
     [self.navigationController presentViewController:addClockVC animated:YES completion:^{
 
     }];
@@ -110,6 +111,22 @@
 
     return destDateString;
     
+}
+
+#pragma mark-addDelegate
+- (void)addClockCancel:(CLClockObject *)clock
+{
+    [self.navigationController dismissViewControllerAnimated:YES completion:^{
+
+    }];
+}
+
+- (void)addClockConfirm:(CLClockObject *)clock
+{
+    [self.navigationController dismissViewControllerAnimated:YES completion:^{
+        [[CLNotificationManager sharedManager]saveLocalNotification:clock];
+        [self.clockTableView reloadData];
+    }];
 }
 
 @end

@@ -47,16 +47,21 @@
 
 - (void)saveLocalNotification:(CLClockObject *)obj
 {
-    UILocalNotification *notification=[[UILocalNotification alloc] init];
-    notification.fireDate = obj.clockDate;
-    notification.timeZone=[NSTimeZone defaultTimeZone];
-    notification.repeatInterval = obj.repeatInterval;
-    notification.alertBody = obj.alertBody;
-    notification.soundName = obj.soundName;
+    if (obj.notification == nil) {
+        UILocalNotification *notification=[[UILocalNotification alloc] init];
+        notification.fireDate = [[NSDate date] dateByAddingTimeInterval:10];
+        notification.timeZone = [NSTimeZone defaultTimeZone];
+        notification.repeatInterval = obj.repeatInterval;
+        notification.alertBody = obj.alertBody;
+        notification.soundName = obj.soundName;
 
-    [[UIApplication sharedApplication] scheduleLocalNotification:notification];
-    obj.notification = notification;
-    [self.localNotifArray addObject:obj];
+        [[UIApplication sharedApplication] scheduleLocalNotification:notification];
+        obj.notification = notification;
+        [self.localNotifArray addObject:obj];
+    }
+
+     NSArray *localArray = [[UIApplication sharedApplication] scheduledLocalNotifications];
+     NSLog(@"%@", localArray);
 }
 @end
 

@@ -23,6 +23,17 @@
     return self;
 }
 
+- (id)init
+{
+    if (self = [super init]) {
+        self.soundName = UILocalNotificationDefaultSoundName;
+        self.alertBody = @"闹钟时间";
+        self.repeatInterval = NSWeekCalendarUnit;
+        self.isOpen = YES;
+    }
+    return self;
+}
+
 - (id)initWithCoder:(NSCoder *)aDecoder
 {
     if (self = [super init]) {

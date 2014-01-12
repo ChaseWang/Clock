@@ -29,6 +29,17 @@
 		93D7AE8F186FC8040044ABDB /* CLClockView.m in Sources */ = {isa = PBXBuildFile; fileRef = 93D7AE8E186FC8040044ABDB /* CLClockView.m */; };
 		93D7AE92186FC8350044ABDB /* CLClockCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 93D7AE91186FC8350044ABDB /* CLClockCell.m */; };
 		93D7AE95186FD2020044ABDB /* CLClockObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 93D7AE94186FD2020044ABDB /* CLClockObject.m */; };
+		93E34D8D1881740C005A2E40 /* ClockView.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E34D8C1881740C005A2E40 /* ClockView.m */; };
+		93E34D971881742F005A2E40 /* -clock-face.png in Resources */ = {isa = PBXBuildFile; fileRef = 93E34D8F1881742F005A2E40 /* -clock-face.png */; };
+		93E34D981881742F005A2E40 /* bliss-roman-aluminium-clock.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 93E34D901881742F005A2E40 /* bliss-roman-aluminium-clock.jpg */; };
+		93E34D991881742F005A2E40 /* clock-background.png in Resources */ = {isa = PBXBuildFile; fileRef = 93E34D911881742F005A2E40 /* clock-background.png */; };
+		93E34D9A1881742F005A2E40 /* clock-hour-background.png in Resources */ = {isa = PBXBuildFile; fileRef = 93E34D921881742F005A2E40 /* clock-hour-background.png */; };
+		93E34D9B1881742F005A2E40 /* clock-min-background.png in Resources */ = {isa = PBXBuildFile; fileRef = 93E34D931881742F005A2E40 /* clock-min-background.png */; };
+		93E34D9C1881742F005A2E40 /* clock-min-background_.png in Resources */ = {isa = PBXBuildFile; fileRef = 93E34D941881742F005A2E40 /* clock-min-background_.png */; };
+		93E34D9D1881742F005A2E40 /* clock-sec-background.png in Resources */ = {isa = PBXBuildFile; fileRef = 93E34D951881742F005A2E40 /* clock-sec-background.png */; };
+		93E34D9E1881742F005A2E40 /* OutputSample.png in Resources */ = {isa = PBXBuildFile; fileRef = 93E34D961881742F005A2E40 /* OutputSample.png */; };
+		93E34DA11882A757005A2E40 /* CLPointView.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E34DA01882A757005A2E40 /* CLPointView.m */; };
+		93E34DA81882D2C7005A2E40 /* NSDate+CLAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E34DA71882D2C7005A2E40 /* NSDate+CLAdditions.m */; };
 		93E780C41874443A00A3BF95 /* CLNotificationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E780C31874443A00A3BF95 /* CLNotificationManager.m */; };
 /* End PBXBuildFile section */
 
@@ -79,6 +90,20 @@
 		93D7AE91186FC8350044ABDB /* CLClockCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLClockCell.m; sourceTree = "<group>"; };
 		93D7AE93186FD2020044ABDB /* CLClockObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLClockObject.h; sourceTree = "<group>"; };
 		93D7AE94186FD2020044ABDB /* CLClockObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLClockObject.m; sourceTree = "<group>"; };
+		93E34D8B1881740C005A2E40 /* ClockView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClockView.h; sourceTree = "<group>"; };
+		93E34D8C1881740C005A2E40 /* ClockView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClockView.m; sourceTree = "<group>"; };
+		93E34D8F1881742F005A2E40 /* -clock-face.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "-clock-face.png"; sourceTree = "<group>"; };
+		93E34D901881742F005A2E40 /* bliss-roman-aluminium-clock.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "bliss-roman-aluminium-clock.jpg"; sourceTree = "<group>"; };
+		93E34D911881742F005A2E40 /* clock-background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clock-background.png"; sourceTree = "<group>"; };
+		93E34D921881742F005A2E40 /* clock-hour-background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clock-hour-background.png"; sourceTree = "<group>"; };
+		93E34D931881742F005A2E40 /* clock-min-background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clock-min-background.png"; sourceTree = "<group>"; };
+		93E34D941881742F005A2E40 /* clock-min-background_.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clock-min-background_.png"; sourceTree = "<group>"; };
+		93E34D951881742F005A2E40 /* clock-sec-background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clock-sec-background.png"; sourceTree = "<group>"; };
+		93E34D961881742F005A2E40 /* OutputSample.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = OutputSample.png; sourceTree = "<group>"; };
+		93E34D9F1882A757005A2E40 /* CLPointView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLPointView.h; sourceTree = "<group>"; };
+		93E34DA01882A757005A2E40 /* CLPointView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLPointView.m; sourceTree = "<group>"; };
+		93E34DA61882D2C7005A2E40 /* NSDate+CLAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+CLAdditions.h"; sourceTree = "<group>"; };
+		93E34DA71882D2C7005A2E40 /* NSDate+CLAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+CLAdditions.m"; sourceTree = "<group>"; };
 		93E780C21874443A00A3BF95 /* CLNotificationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLNotificationManager.h; sourceTree = "<group>"; };
 		93E780C31874443A00A3BF95 /* CLNotificationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLNotificationManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -110,6 +135,8 @@
 		936422A31861E7DA0002390E /* View */ = {
 			isa = PBXGroup;
 			children = (
+				93E34D8B1881740C005A2E40 /* ClockView.h */,
+				93E34D8C1881740C005A2E40 /* ClockView.m */,
 				936422A01861E7D20002390E /* CLTabBarView.h */,
 				936422A11861E7D20002390E /* CLTabBarView.m */,
 				93D7AE8A186FC5530044ABDB /* CLTimeShowView.h */,
@@ -122,6 +149,8 @@
 				936D7C15187971490017A97A /* CLAddClockCell.m */,
 				936D7C1E18799C880017A97A /* CLTimeView.h */,
 				936D7C1F18799C880017A97A /* CLTimeView.m */,
+				93E34D9F1882A757005A2E40 /* CLPointView.h */,
+				93E34DA01882A757005A2E40 /* CLPointView.m */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -168,6 +197,8 @@
 		93CB808718156F5200D2CB91 /* Clock */ = {
 			isa = PBXGroup;
 			children = (
+				93E34DA21882D242005A2E40 /* Extend */,
+				93E34D8E1881742F005A2E40 /* Images */,
 				936D7C17187972DA0017A97A /* ViewController */,
 				93E780C11874423F00A3BF95 /* Manager */,
 				93D7AE96186FD2120044ABDB /* Model */,
@@ -220,6 +251,30 @@
 				93D7AE94186FD2020044ABDB /* CLClockObject.m */,
 			);
 			name = Model;
+			sourceTree = "<group>";
+		};
+		93E34D8E1881742F005A2E40 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				93E34D8F1881742F005A2E40 /* -clock-face.png */,
+				93E34D901881742F005A2E40 /* bliss-roman-aluminium-clock.jpg */,
+				93E34D911881742F005A2E40 /* clock-background.png */,
+				93E34D921881742F005A2E40 /* clock-hour-background.png */,
+				93E34D931881742F005A2E40 /* clock-min-background.png */,
+				93E34D941881742F005A2E40 /* clock-min-background_.png */,
+				93E34D951881742F005A2E40 /* clock-sec-background.png */,
+				93E34D961881742F005A2E40 /* OutputSample.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		93E34DA21882D242005A2E40 /* Extend */ = {
+			isa = PBXGroup;
+			children = (
+				93E34DA61882D2C7005A2E40 /* NSDate+CLAdditions.h */,
+				93E34DA71882D2C7005A2E40 /* NSDate+CLAdditions.m */,
+			);
+			name = Extend;
 			sourceTree = "<group>";
 		};
 		93E780C11874423F00A3BF95 /* Manager */ = {
@@ -315,9 +370,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93E34D991881742F005A2E40 /* clock-background.png in Resources */,
 				93CB809A18156F5200D2CB91 /* Images.xcassets in Resources */,
 				93CB808C18156F5200D2CB91 /* InfoPlist.strings in Resources */,
+				93E34D9E1881742F005A2E40 /* OutputSample.png in Resources */,
 				93CB809518156F5200D2CB91 /* Main.storyboard in Resources */,
+				93E34D9A1881742F005A2E40 /* clock-hour-background.png in Resources */,
+				93E34D9B1881742F005A2E40 /* clock-min-background.png in Resources */,
+				93E34D9C1881742F005A2E40 /* clock-min-background_.png in Resources */,
+				93E34D981881742F005A2E40 /* bliss-roman-aluminium-clock.jpg in Resources */,
+				93E34D9D1881742F005A2E40 /* clock-sec-background.png in Resources */,
+				93E34D971881742F005A2E40 /* -clock-face.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -337,12 +400,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				93D7AE8C186FC5530044ABDB /* CLTimeShowView.m in Sources */,
+				93E34D8D1881740C005A2E40 /* ClockView.m in Sources */,
+				93E34DA11882A757005A2E40 /* CLPointView.m in Sources */,
 				936D7C16187971490017A97A /* CLAddClockCell.m in Sources */,
 				93E780C41874443A00A3BF95 /* CLNotificationManager.m in Sources */,
 				936D7C1A1879730C0017A97A /* CLAddViewController.m in Sources */,
 				93D7AE92186FC8350044ABDB /* CLClockCell.m in Sources */,
 				93CB808E18156F5200D2CB91 /* main.m in Sources */,
 				93CB809218156F5200D2CB91 /* CLAppDelegate.m in Sources */,
+				93E34DA81882D2C7005A2E40 /* NSDate+CLAdditions.m in Sources */,
 				93D7AE95186FD2020044ABDB /* CLClockObject.m in Sources */,
 				936D7C2018799C880017A97A /* CLTimeView.m in Sources */,
 				93CB809818156F5200D2CB91 /* CLViewController.m in Sources */,

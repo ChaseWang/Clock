@@ -8,7 +8,13 @@
 
 #import <UIKit/UIKit.h>
 #import "CLClockObject.h"
+@class CLAddViewController;
+@protocol CLAddViewVControllerDelegate <NSObject>
+- (void)addClockCancel:(CLClockObject *)clock;
+- (void)addClockConfirm:(CLClockObject *)clock;
+@end
 
 @interface CLAddViewController : UIViewController
 @property (nonatomic, strong) CLClockObject *clock;
+@property (nonatomic, strong) id<CLAddViewVControllerDelegate> delegate;
 @end

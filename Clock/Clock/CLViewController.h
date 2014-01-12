@@ -14,7 +14,7 @@
 #import "CLAddClockCell.h"
 #import "CLTimeView.h"
 
-@interface CLViewController : UIViewController<CLTabBarDelegate,UITableViewDelegate,UITableViewDataSource>
+@interface CLViewController : UIViewController<CLTabBarDelegate,CLAddViewVControllerDelegate,UITableViewDelegate,UITableViewDataSource>
 @property (nonatomic, strong) CLClockView *clockTableView;
 @property (nonatomic, strong) CLTabBarView *tabBarView;
 @property (strong, nonatomic) IBOutlet UIImageView *weatherImageView;
