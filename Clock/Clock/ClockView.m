@@ -223,8 +223,23 @@ float Degrees2Radians(float degrees) { return degrees * M_PI / 180; }
 
 - (void)clockPointValueChanged:(CGFloat)angle
 {
-    NSLog(@"%f",angle);
-    self.clockHour = 8;
-    self.clockMinute = 59;
+    //NSLog(@"angle:%f",angle);
+    [self setClockTimeFromAngle:angle];
+}
+
+- (void)setClockTimeFromAngle:(CGFloat)angle
+{
+    NSUInteger offsetMinute = 540;
+    NSUInteger minuteIn12Hour = 60 * 12;
+    NSUInteger minuteForAngle = (angle/(2*M_PI)) * minuteIn12Hour;
+    NSUInteger minute;
+    if (minuteForAngle > offsetMinute) {
+        minute = offsetMinute + minuteIn12Hour - minuteForAngle;
+    }
+    else
+    {
+        minute = offsetMinute - minuteForAngle;
+    }
+    NSLog(@"%f",minute/60.0f);
 }
 @end

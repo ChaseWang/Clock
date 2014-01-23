@@ -23,8 +23,8 @@
 
         self.deltaAngle = atan2(self.frame.origin.y + self.frame.size.height - self.center.y,
                            self.frame.origin.x+self.frame.size.width - self.center.x);
-        self.deltaAngle = 1.5;
-    }
+        self.deltaAngle = M_PI_2;
+        }
     return self;
 }
 
@@ -40,16 +40,19 @@
         float ang = atan2([recognizer locationInView:self.superview].y - self.center.y,
                           [recognizer locationInView:self.superview].x - self.center.x);
         self.changedAngle = self.deltaAngle - ang;
-        self.transform = CGAffineTransformMakeRotation(-self.changedAngle );
-
+        self.transform = CGAffineTransformMakeRotation(-self.changedAngle);
         [self setNeedsDisplay];
+        if ([self.delegate respondsToSelector:@selector(clockPointValueChanged:)])
+        {
+            [self.delegate clockPointValueChanged:self.changedAngle + M_PI_2];
+        }
     }
     else if ([recognizer state] == UIGestureRecognizerStateEnded)
     {
         [self setNeedsDisplay];
         if ([self.delegate respondsToSelector:@selector(clockPointValueChanged:)])
         {
-            [self.delegate clockPointValueChanged:self.changedAngle];
+            [self.delegate clockPointValueChanged:self.changedAngle + M_PI_2];
         }
     }
 }
