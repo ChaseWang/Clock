@@ -29,6 +29,10 @@
 		93D7AE8F186FC8040044ABDB /* CLClockView.m in Sources */ = {isa = PBXBuildFile; fileRef = 93D7AE8E186FC8040044ABDB /* CLClockView.m */; };
 		93D7AE92186FC8350044ABDB /* CLClockCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 93D7AE91186FC8350044ABDB /* CLClockCell.m */; };
 		93D7AE95186FD2020044ABDB /* CLClockObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 93D7AE94186FD2020044ABDB /* CLClockObject.m */; };
+		93DA96571891514300E471E5 /* CLBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93DA96561891514300E471E5 /* CLBaseViewController.m */; };
+		93DA965A1891518F00E471E5 /* CLFeedBackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93DA96591891518F00E471E5 /* CLFeedBackViewController.m */; };
+		93DA965D1891519C00E471E5 /* CLSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93DA965C1891519C00E471E5 /* CLSettingViewController.m */; };
+		93DA9660189151AB00E471E5 /* CLAboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93DA965F189151AB00E471E5 /* CLAboutViewController.m */; };
 		93E34D8D1881740C005A2E40 /* ClockView.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E34D8C1881740C005A2E40 /* ClockView.m */; };
 		93E34D971881742F005A2E40 /* -clock-face.png in Resources */ = {isa = PBXBuildFile; fileRef = 93E34D8F1881742F005A2E40 /* -clock-face.png */; };
 		93E34D981881742F005A2E40 /* bliss-roman-aluminium-clock.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 93E34D901881742F005A2E40 /* bliss-roman-aluminium-clock.jpg */; };
@@ -90,6 +94,14 @@
 		93D7AE91186FC8350044ABDB /* CLClockCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLClockCell.m; sourceTree = "<group>"; };
 		93D7AE93186FD2020044ABDB /* CLClockObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLClockObject.h; sourceTree = "<group>"; };
 		93D7AE94186FD2020044ABDB /* CLClockObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLClockObject.m; sourceTree = "<group>"; };
+		93DA96551891514300E471E5 /* CLBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLBaseViewController.h; sourceTree = "<group>"; };
+		93DA96561891514300E471E5 /* CLBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLBaseViewController.m; sourceTree = "<group>"; };
+		93DA96581891518F00E471E5 /* CLFeedBackViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLFeedBackViewController.h; sourceTree = "<group>"; };
+		93DA96591891518F00E471E5 /* CLFeedBackViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLFeedBackViewController.m; sourceTree = "<group>"; };
+		93DA965B1891519C00E471E5 /* CLSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLSettingViewController.h; sourceTree = "<group>"; };
+		93DA965C1891519C00E471E5 /* CLSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLSettingViewController.m; sourceTree = "<group>"; };
+		93DA965E189151AB00E471E5 /* CLAboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLAboutViewController.h; sourceTree = "<group>"; };
+		93DA965F189151AB00E471E5 /* CLAboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLAboutViewController.m; sourceTree = "<group>"; };
 		93E34D8B1881740C005A2E40 /* ClockView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClockView.h; sourceTree = "<group>"; };
 		93E34D8C1881740C005A2E40 /* ClockView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClockView.m; sourceTree = "<group>"; };
 		93E34D8F1881742F005A2E40 /* -clock-face.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "-clock-face.png"; sourceTree = "<group>"; };
@@ -160,6 +172,14 @@
 			children = (
 				936D7C181879730C0017A97A /* CLAddViewController.h */,
 				936D7C191879730C0017A97A /* CLAddViewController.m */,
+				93DA96551891514300E471E5 /* CLBaseViewController.h */,
+				93DA96561891514300E471E5 /* CLBaseViewController.m */,
+				93DA96581891518F00E471E5 /* CLFeedBackViewController.h */,
+				93DA96591891518F00E471E5 /* CLFeedBackViewController.m */,
+				93DA965B1891519C00E471E5 /* CLSettingViewController.h */,
+				93DA965C1891519C00E471E5 /* CLSettingViewController.m */,
+				93DA965E189151AB00E471E5 /* CLAboutViewController.h */,
+				93DA965F189151AB00E471E5 /* CLAboutViewController.m */,
 			);
 			name = ViewController;
 			sourceTree = "<group>";
@@ -401,7 +421,10 @@
 			files = (
 				93D7AE8C186FC5530044ABDB /* CLTimeShowView.m in Sources */,
 				93E34D8D1881740C005A2E40 /* ClockView.m in Sources */,
+				93DA9660189151AB00E471E5 /* CLAboutViewController.m in Sources */,
+				93DA965D1891519C00E471E5 /* CLSettingViewController.m in Sources */,
 				93E34DA11882A757005A2E40 /* CLPointView.m in Sources */,
+				93DA965A1891518F00E471E5 /* CLFeedBackViewController.m in Sources */,
 				936D7C16187971490017A97A /* CLAddClockCell.m in Sources */,
 				93E780C41874443A00A3BF95 /* CLNotificationManager.m in Sources */,
 				936D7C1A1879730C0017A97A /* CLAddViewController.m in Sources */,
@@ -409,6 +432,7 @@
 				93CB808E18156F5200D2CB91 /* main.m in Sources */,
 				93CB809218156F5200D2CB91 /* CLAppDelegate.m in Sources */,
 				93E34DA81882D2C7005A2E40 /* NSDate+CLAdditions.m in Sources */,
+				93DA96571891514300E471E5 /* CLBaseViewController.m in Sources */,
 				93D7AE95186FD2020044ABDB /* CLClockObject.m in Sources */,
 				936D7C2018799C880017A97A /* CLTimeView.m in Sources */,
 				93CB809818156F5200D2CB91 /* CLViewController.m in Sources */,
@@ -543,7 +567,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Clock/Clock-Prefix.pch";
 				INFOPLIST_FILE = "Clock/Clock-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
@@ -558,7 +582,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Clock/Clock-Prefix.pch";
 				INFOPLIST_FILE = "Clock/Clock-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
