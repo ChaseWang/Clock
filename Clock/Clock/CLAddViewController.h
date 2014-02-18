@@ -16,6 +16,6 @@
 @end
 
 @interface CLAddViewController : CLBaseViewController
-@property (nonatomic, strong) CLClockObject *clock;
+@property (nonatomic, strong) CLClockObject *clockObj;
 @property (nonatomic, strong) id<CLAddViewVControllerDelegate> delegate;
 @end

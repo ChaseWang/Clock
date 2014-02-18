@@ -134,6 +134,12 @@ float Degrees2Radians(float degrees) { return degrees * M_PI / 180; }
     [containerLayer addSublayer:secHand];
     [self.layer addSublayer:containerLayer];
     [self addSubview:pointView];
+
+    clokLabel = [[UILabel alloc]initWithFrame:CGRectMake(0, 0, 300, 30)];
+    [clokLabel setBackgroundColor:[UIColor clearColor]];
+    [clokLabel setTextAlignment:NSTextAlignmentCenter];
+    [clokLabel setText:@"06:00"];
+    [self addSubview:clokLabel];
 }
 
 #pragma mark - Overrides
@@ -236,10 +242,15 @@ float Degrees2Radians(float degrees) { return degrees * M_PI / 180; }
     if (minuteForAngle > offsetMinute) {
         minute = offsetMinute + minuteIn12Hour - minuteForAngle;
     }
-    else
-    {
+    else{
         minute = offsetMinute - minuteForAngle;
     }
-    NSLog(@"%f",minute/60.0f);
+    NSLog(@"hour:%d",minute/60);
+    NSLog(@"minute:%d",minute%60);
+    
+    self.clockHour = minute/60;
+    self.clockMinute = minute%60;
+
+    [clokLabel setText:[NSString stringWithFormat:@"%d:%d",self.clockHour, self.clockMinute]];
 }
 @end

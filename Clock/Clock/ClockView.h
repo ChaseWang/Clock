@@ -13,6 +13,7 @@
 
 @interface ClockView : UIView<CLPointViewDelegate> {
 
+    UILabel *clokLabel;
 	CALayer *containerLayer;
 	CALayer *hourHand;
 	CALayer *minHand;

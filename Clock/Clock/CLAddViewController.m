@@ -56,8 +56,8 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
-    if (!self.clock) {
-        self.clock = [[CLClockObject alloc]init];
+    if (!self.clockObj) {
+        self.clockObj = [[CLClockObject alloc]init];
     }
 }
 
@@ -70,7 +70,7 @@
 - (void)cancelButtonClick:(id)sender
 {
     if ([self.delegate respondsToSelector:@selector(addClockCancel:)]) {
-        [self.delegate addClockCancel:self.clock];
+        [self.delegate addClockCancel:self.clockObj];
     }
 }
 
@@ -78,7 +78,7 @@
 {
     if ([self.delegate respondsToSelector:@selector(addClockConfirm:)]) {
         [self setAddedClock];
-        [self.delegate addClockConfirm:self.clock];
+        [self.delegate addClockConfirm:self.clockObj];
     }
 }
 
@@ -86,11 +86,35 @@
 {
     NSString *date = [[NSDate date]dateToString:@"yyyy-MM-dd"];
     NSString *h = [[NSDate date]dateToString:@"HH"];
-    NSString *m = [[NSDate date]dateToString:@"mm"];
-    NSString *clock = [NSString stringWithFormat:@"%@ %d:%@:00",date,[h integerValue] + 1,m];
-    self.clock.clockDate = [NSDate dateWithString:clock format:@"yyyy-MM-dd HH:mm:ss"];
-    self.clock.fireDate = [NSDate dateWithString:clock format:@"yyyy-MM-dd HH:mm:ss"];
-    self.clock.fireDate = [[NSDate date] dateByAddingTimeInterval:10];
+
+    NSInteger ch = self.clockSetView.clockHour;
+    NSInteger cm = self.clockSetView.clockMinute;
+    if ([h integerValue] > 12) {
+        ch = ch + 12;
+    }
+
+    NSString *stH = [NSString stringWithFormat:@"%d",ch];
+    NSString *stM = [NSString stringWithFormat:@"%d",cm];
+
+    if (ch < 10) {
+        stH = [NSString stringWithFormat:@"0%d",ch];
+    }
+
+    if (cm < 10) {
+        stM = [NSString stringWithFormat:@"0%d",cm];
+    }
+//    if (ch < 10) {
+//        stH = [NSString stringWithFormat:@"0%d",ch];
+//    }
+//
+//    if (cm < 10)
+//        stM = [NSString stringWithFormat:@"0%d",cm];
+//    }
+
+    NSString *c = [NSString stringWithFormat:@"%@ %@:%@:00",date,stH,stM];
+    self.clockObj.clockDate = [NSDate dateWithString:c format:@"yyyy-MM-dd HH:mm:ss"];
+    self.clockObj.fireDate = [NSDate dateWithString:c format:@"yyyy-MM-dd HH:mm:ss"];
+    //self.clock.fireDate = [[NSDate date] dateByAddingTimeInterval:10];
 }
 
 @end
