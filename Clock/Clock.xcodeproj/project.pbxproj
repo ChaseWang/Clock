@@ -44,6 +44,8 @@
 		93E34D9E1881742F005A2E40 /* OutputSample.png in Resources */ = {isa = PBXBuildFile; fileRef = 93E34D961881742F005A2E40 /* OutputSample.png */; };
 		93E34DA11882A757005A2E40 /* CLPointView.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E34DA01882A757005A2E40 /* CLPointView.m */; };
 		93E34DA81882D2C7005A2E40 /* NSDate+CLAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E34DA71882D2C7005A2E40 /* NSDate+CLAdditions.m */; };
+		93E5A1D118B4EE37003E1A09 /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 93E5A1CE18B4EE37003E1A09 /* libWeChatSDK.a */; };
+		93E5A1D418B4EE74003E1A09 /* CLWeChatManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E5A1D318B4EE74003E1A09 /* CLWeChatManager.m */; };
 		93E780C41874443A00A3BF95 /* CLNotificationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E780C31874443A00A3BF95 /* CLNotificationManager.m */; };
 /* End PBXBuildFile section */
 
@@ -116,6 +118,11 @@
 		93E34DA01882A757005A2E40 /* CLPointView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLPointView.m; sourceTree = "<group>"; };
 		93E34DA61882D2C7005A2E40 /* NSDate+CLAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+CLAdditions.h"; sourceTree = "<group>"; };
 		93E34DA71882D2C7005A2E40 /* NSDate+CLAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+CLAdditions.m"; sourceTree = "<group>"; };
+		93E5A1CE18B4EE37003E1A09 /* libWeChatSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWeChatSDK.a; sourceTree = "<group>"; };
+		93E5A1CF18B4EE37003E1A09 /* WXApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
+		93E5A1D018B4EE37003E1A09 /* WXApiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
+		93E5A1D218B4EE74003E1A09 /* CLWeChatManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLWeChatManager.h; sourceTree = "<group>"; };
+		93E5A1D318B4EE74003E1A09 /* CLWeChatManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLWeChatManager.m; sourceTree = "<group>"; };
 		93E780C21874443A00A3BF95 /* CLNotificationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLNotificationManager.h; sourceTree = "<group>"; };
 		93E780C31874443A00A3BF95 /* CLNotificationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLNotificationManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -127,6 +134,7 @@
 			files = (
 				93CB808418156F5100D2CB91 /* CoreGraphics.framework in Frameworks */,
 				93CB808618156F5100D2CB91 /* UIKit.framework in Frameworks */,
+				93E5A1D118B4EE37003E1A09 /* libWeChatSDK.a in Frameworks */,
 				93CB808218156F5100D2CB91 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -217,6 +225,7 @@
 		93CB808718156F5200D2CB91 /* Clock */ = {
 			isa = PBXGroup;
 			children = (
+				93E5A1CD18B4EE37003E1A09 /* WeChatSDK_1.4.2.1 */,
 				93E34DA21882D242005A2E40 /* Extend */,
 				93E34D8E1881742F005A2E40 /* Images */,
 				936D7C17187972DA0017A97A /* ViewController */,
@@ -297,11 +306,23 @@
 			name = Extend;
 			sourceTree = "<group>";
 		};
+		93E5A1CD18B4EE37003E1A09 /* WeChatSDK_1.4.2.1 */ = {
+			isa = PBXGroup;
+			children = (
+				93E5A1CE18B4EE37003E1A09 /* libWeChatSDK.a */,
+				93E5A1CF18B4EE37003E1A09 /* WXApi.h */,
+				93E5A1D018B4EE37003E1A09 /* WXApiObject.h */,
+			);
+			path = WeChatSDK_1.4.2.1;
+			sourceTree = "<group>";
+		};
 		93E780C11874423F00A3BF95 /* Manager */ = {
 			isa = PBXGroup;
 			children = (
 				93E780C21874443A00A3BF95 /* CLNotificationManager.h */,
 				93E780C31874443A00A3BF95 /* CLNotificationManager.m */,
+				93E5A1D218B4EE74003E1A09 /* CLWeChatManager.h */,
+				93E5A1D318B4EE74003E1A09 /* CLWeChatManager.m */,
 			);
 			name = Manager;
 			sourceTree = "<group>";
@@ -425,6 +446,7 @@
 				93DA965D1891519C00E471E5 /* CLSettingViewController.m in Sources */,
 				93E34DA11882A757005A2E40 /* CLPointView.m in Sources */,
 				93DA965A1891518F00E471E5 /* CLFeedBackViewController.m in Sources */,
+				93E5A1D418B4EE74003E1A09 /* CLWeChatManager.m in Sources */,
 				936D7C16187971490017A97A /* CLAddClockCell.m in Sources */,
 				93E780C41874443A00A3BF95 /* CLNotificationManager.m in Sources */,
 				936D7C1A1879730C0017A97A /* CLAddViewController.m in Sources */,
@@ -568,6 +590,10 @@
 				GCC_PREFIX_HEADER = "Clock/Clock-Prefix.pch";
 				INFOPLIST_FILE = "Clock/Clock-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/wangtao/GitHub/Clock/Clock/Clock/WeChatSDK_1.4.2.1,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
@@ -583,6 +609,10 @@
 				GCC_PREFIX_HEADER = "Clock/Clock-Prefix.pch";
 				INFOPLIST_FILE = "Clock/Clock-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/wangtao/GitHub/Clock/Clock/Clock/WeChatSDK_1.4.2.1,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;

@@ -49,4 +49,14 @@
 {
 
 }
+
+- (BOOL)application:(UIApplication *)application handleOpenURL:(NSURL *)url
+{
+    return  [[CLWeChatManager sharedManager] handleOpenURL:url];
+}
+
+- (BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation
+{
+    return  [[CLWeChatManager sharedManager] handleOpenURL:url];
+}
 @end
