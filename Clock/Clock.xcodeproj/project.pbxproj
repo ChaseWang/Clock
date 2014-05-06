@@ -7,10 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		936422A21861E7D20002390E /* CLTabBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 936422A11861E7D20002390E /* CLTabBarView.m */; };
-		936D7C16187971490017A97A /* CLAddClockCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 936D7C15187971490017A97A /* CLAddClockCell.m */; };
-		936D7C1A1879730C0017A97A /* CLAddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 936D7C191879730C0017A97A /* CLAddViewController.m */; };
-		936D7C2018799C880017A97A /* CLTimeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 936D7C1F18799C880017A97A /* CLTimeView.m */; };
 		93CB808218156F5100D2CB91 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93CB808118156F5100D2CB91 /* Foundation.framework */; };
 		93CB808418156F5100D2CB91 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93CB808318156F5100D2CB91 /* CoreGraphics.framework */; };
 		93CB808618156F5100D2CB91 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93CB808518156F5100D2CB91 /* UIKit.framework */; };
@@ -25,15 +21,7 @@
 		93CB80A318156F5200D2CB91 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93CB808518156F5100D2CB91 /* UIKit.framework */; };
 		93CB80AB18156F5200D2CB91 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 93CB80A918156F5200D2CB91 /* InfoPlist.strings */; };
 		93CB80AD18156F5200D2CB91 /* ClockTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 93CB80AC18156F5200D2CB91 /* ClockTests.m */; };
-		93D7AE8C186FC5530044ABDB /* CLTimeShowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 93D7AE8B186FC5530044ABDB /* CLTimeShowView.m */; };
-		93D7AE8F186FC8040044ABDB /* CLClockView.m in Sources */ = {isa = PBXBuildFile; fileRef = 93D7AE8E186FC8040044ABDB /* CLClockView.m */; };
-		93D7AE92186FC8350044ABDB /* CLClockCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 93D7AE91186FC8350044ABDB /* CLClockCell.m */; };
 		93D7AE95186FD2020044ABDB /* CLClockObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 93D7AE94186FD2020044ABDB /* CLClockObject.m */; };
-		93DA96571891514300E471E5 /* CLBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93DA96561891514300E471E5 /* CLBaseViewController.m */; };
-		93DA965A1891518F00E471E5 /* CLFeedBackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93DA96591891518F00E471E5 /* CLFeedBackViewController.m */; };
-		93DA965D1891519C00E471E5 /* CLSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93DA965C1891519C00E471E5 /* CLSettingViewController.m */; };
-		93DA9660189151AB00E471E5 /* CLAboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93DA965F189151AB00E471E5 /* CLAboutViewController.m */; };
-		93E34D8D1881740C005A2E40 /* ClockView.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E34D8C1881740C005A2E40 /* ClockView.m */; };
 		93E34D971881742F005A2E40 /* -clock-face.png in Resources */ = {isa = PBXBuildFile; fileRef = 93E34D8F1881742F005A2E40 /* -clock-face.png */; };
 		93E34D981881742F005A2E40 /* bliss-roman-aluminium-clock.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 93E34D901881742F005A2E40 /* bliss-roman-aluminium-clock.jpg */; };
 		93E34D991881742F005A2E40 /* clock-background.png in Resources */ = {isa = PBXBuildFile; fileRef = 93E34D911881742F005A2E40 /* clock-background.png */; };
@@ -42,11 +30,28 @@
 		93E34D9C1881742F005A2E40 /* clock-min-background_.png in Resources */ = {isa = PBXBuildFile; fileRef = 93E34D941881742F005A2E40 /* clock-min-background_.png */; };
 		93E34D9D1881742F005A2E40 /* clock-sec-background.png in Resources */ = {isa = PBXBuildFile; fileRef = 93E34D951881742F005A2E40 /* clock-sec-background.png */; };
 		93E34D9E1881742F005A2E40 /* OutputSample.png in Resources */ = {isa = PBXBuildFile; fileRef = 93E34D961881742F005A2E40 /* OutputSample.png */; };
-		93E34DA11882A757005A2E40 /* CLPointView.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E34DA01882A757005A2E40 /* CLPointView.m */; };
 		93E34DA81882D2C7005A2E40 /* NSDate+CLAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E34DA71882D2C7005A2E40 /* NSDate+CLAdditions.m */; };
-		93E5A1D118B4EE37003E1A09 /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 93E5A1CE18B4EE37003E1A09 /* libWeChatSDK.a */; };
-		93E5A1D418B4EE74003E1A09 /* CLWeChatManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E5A1D318B4EE74003E1A09 /* CLWeChatManager.m */; };
-		93E780C41874443A00A3BF95 /* CLNotificationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E780C31874443A00A3BF95 /* CLNotificationManager.m */; };
+		93E3955A19191032002BC547 /* CLAddClockCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E3954719191032002BC547 /* CLAddClockCell.m */; };
+		93E3955B19191032002BC547 /* CLClockCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E3954919191032002BC547 /* CLClockCell.m */; };
+		93E3955C19191032002BC547 /* CLClockView.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E3954B19191032002BC547 /* CLClockView.m */; };
+		93E3955D19191032002BC547 /* ClockView.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E3954D19191032002BC547 /* ClockView.m */; };
+		93E3955E19191032002BC547 /* CLPointView.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E3954F19191032002BC547 /* CLPointView.m */; };
+		93E3955F19191032002BC547 /* CLTabBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E3955119191032002BC547 /* CLTabBarView.m */; };
+		93E3956019191032002BC547 /* CLTimeShowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E3955319191032002BC547 /* CLTimeShowView.m */; };
+		93E3956119191032002BC547 /* CLTimeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E3955519191032002BC547 /* CLTimeView.m */; };
+		93E395731919106B002BC547 /* CLNotificationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E395651919106B002BC547 /* CLNotificationManager.m */; };
+		93E395751919106B002BC547 /* CLAboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E3956A1919106B002BC547 /* CLAboutViewController.m */; };
+		93E395761919106B002BC547 /* CLAddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E3956C1919106B002BC547 /* CLAddViewController.m */; };
+		93E395771919106B002BC547 /* CLBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E3956E1919106B002BC547 /* CLBaseViewController.m */; };
+		93E395781919106B002BC547 /* CLFeedBackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E395701919106B002BC547 /* CLFeedBackViewController.m */; };
+		93E395791919106B002BC547 /* CLSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E395721919106B002BC547 /* CLSettingViewController.m */; };
+		93E3958719191088002BC547 /* PKAnimation+PKType.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E3957D19191088002BC547 /* PKAnimation+PKType.m */; };
+		93E3958819191088002BC547 /* UIColor+PKColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E3957F19191088002BC547 /* UIColor+PKColor.m */; };
+		93E3958919191088002BC547 /* UIFont+PKFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E3958119191088002BC547 /* UIFont+PKFont.m */; };
+		93E3958A19191088002BC547 /* UIImage+PKImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E3958319191088002BC547 /* UIImage+PKImage.m */; };
+		93E3958B19191088002BC547 /* PKResManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E3958519191088002BC547 /* PKResManager.m */; };
+		93E395921919120C002BC547 /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 93E3958F1919120C002BC547 /* libWeChatSDK.a */; };
+		93E395941919132C002BC547 /* skin_needed.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 93E395931919132C002BC547 /* skin_needed.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,15 +65,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		936422A01861E7D20002390E /* CLTabBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLTabBarView.h; sourceTree = "<group>"; };
-		936422A11861E7D20002390E /* CLTabBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLTabBarView.m; sourceTree = "<group>"; };
-		936D7C14187971490017A97A /* CLAddClockCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLAddClockCell.h; sourceTree = "<group>"; };
-		936D7C15187971490017A97A /* CLAddClockCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLAddClockCell.m; sourceTree = "<group>"; };
-		936D7C181879730C0017A97A /* CLAddViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLAddViewController.h; sourceTree = "<group>"; };
-		936D7C191879730C0017A97A /* CLAddViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLAddViewController.m; sourceTree = "<group>"; };
 		936D7C1B187977D60017A97A /* CLGlobalDef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLGlobalDef.h; sourceTree = "<group>"; };
-		936D7C1E18799C880017A97A /* CLTimeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLTimeView.h; sourceTree = "<group>"; };
-		936D7C1F18799C880017A97A /* CLTimeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLTimeView.m; sourceTree = "<group>"; };
 		93CB807E18156F5100D2CB91 /* Clock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Clock.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		93CB808118156F5100D2CB91 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		93CB808318156F5100D2CB91 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -88,24 +85,8 @@
 		93CB80A818156F5200D2CB91 /* ClockTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ClockTests-Info.plist"; sourceTree = "<group>"; };
 		93CB80AA18156F5200D2CB91 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		93CB80AC18156F5200D2CB91 /* ClockTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClockTests.m; sourceTree = "<group>"; };
-		93D7AE8A186FC5530044ABDB /* CLTimeShowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLTimeShowView.h; sourceTree = "<group>"; };
-		93D7AE8B186FC5530044ABDB /* CLTimeShowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLTimeShowView.m; sourceTree = "<group>"; };
-		93D7AE8D186FC8040044ABDB /* CLClockView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLClockView.h; sourceTree = "<group>"; };
-		93D7AE8E186FC8040044ABDB /* CLClockView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLClockView.m; sourceTree = "<group>"; };
-		93D7AE90186FC8350044ABDB /* CLClockCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLClockCell.h; sourceTree = "<group>"; };
-		93D7AE91186FC8350044ABDB /* CLClockCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLClockCell.m; sourceTree = "<group>"; };
 		93D7AE93186FD2020044ABDB /* CLClockObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLClockObject.h; sourceTree = "<group>"; };
 		93D7AE94186FD2020044ABDB /* CLClockObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLClockObject.m; sourceTree = "<group>"; };
-		93DA96551891514300E471E5 /* CLBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLBaseViewController.h; sourceTree = "<group>"; };
-		93DA96561891514300E471E5 /* CLBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLBaseViewController.m; sourceTree = "<group>"; };
-		93DA96581891518F00E471E5 /* CLFeedBackViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLFeedBackViewController.h; sourceTree = "<group>"; };
-		93DA96591891518F00E471E5 /* CLFeedBackViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLFeedBackViewController.m; sourceTree = "<group>"; };
-		93DA965B1891519C00E471E5 /* CLSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLSettingViewController.h; sourceTree = "<group>"; };
-		93DA965C1891519C00E471E5 /* CLSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLSettingViewController.m; sourceTree = "<group>"; };
-		93DA965E189151AB00E471E5 /* CLAboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLAboutViewController.h; sourceTree = "<group>"; };
-		93DA965F189151AB00E471E5 /* CLAboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLAboutViewController.m; sourceTree = "<group>"; };
-		93E34D8B1881740C005A2E40 /* ClockView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClockView.h; sourceTree = "<group>"; };
-		93E34D8C1881740C005A2E40 /* ClockView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClockView.m; sourceTree = "<group>"; };
 		93E34D8F1881742F005A2E40 /* -clock-face.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "-clock-face.png"; sourceTree = "<group>"; };
 		93E34D901881742F005A2E40 /* bliss-roman-aluminium-clock.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "bliss-roman-aluminium-clock.jpg"; sourceTree = "<group>"; };
 		93E34D911881742F005A2E40 /* clock-background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clock-background.png"; sourceTree = "<group>"; };
@@ -114,17 +95,51 @@
 		93E34D941881742F005A2E40 /* clock-min-background_.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clock-min-background_.png"; sourceTree = "<group>"; };
 		93E34D951881742F005A2E40 /* clock-sec-background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clock-sec-background.png"; sourceTree = "<group>"; };
 		93E34D961881742F005A2E40 /* OutputSample.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = OutputSample.png; sourceTree = "<group>"; };
-		93E34D9F1882A757005A2E40 /* CLPointView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLPointView.h; sourceTree = "<group>"; };
-		93E34DA01882A757005A2E40 /* CLPointView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLPointView.m; sourceTree = "<group>"; };
 		93E34DA61882D2C7005A2E40 /* NSDate+CLAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+CLAdditions.h"; sourceTree = "<group>"; };
 		93E34DA71882D2C7005A2E40 /* NSDate+CLAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+CLAdditions.m"; sourceTree = "<group>"; };
-		93E5A1CE18B4EE37003E1A09 /* libWeChatSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWeChatSDK.a; sourceTree = "<group>"; };
-		93E5A1CF18B4EE37003E1A09 /* WXApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
-		93E5A1D018B4EE37003E1A09 /* WXApiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
-		93E5A1D218B4EE74003E1A09 /* CLWeChatManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLWeChatManager.h; sourceTree = "<group>"; };
-		93E5A1D318B4EE74003E1A09 /* CLWeChatManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLWeChatManager.m; sourceTree = "<group>"; };
-		93E780C21874443A00A3BF95 /* CLNotificationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLNotificationManager.h; sourceTree = "<group>"; };
-		93E780C31874443A00A3BF95 /* CLNotificationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLNotificationManager.m; sourceTree = "<group>"; };
+		93E3954619191032002BC547 /* CLAddClockCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLAddClockCell.h; sourceTree = "<group>"; };
+		93E3954719191032002BC547 /* CLAddClockCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLAddClockCell.m; sourceTree = "<group>"; };
+		93E3954819191032002BC547 /* CLClockCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLClockCell.h; sourceTree = "<group>"; };
+		93E3954919191032002BC547 /* CLClockCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLClockCell.m; sourceTree = "<group>"; };
+		93E3954A19191032002BC547 /* CLClockView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLClockView.h; sourceTree = "<group>"; };
+		93E3954B19191032002BC547 /* CLClockView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLClockView.m; sourceTree = "<group>"; };
+		93E3954C19191032002BC547 /* ClockView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClockView.h; sourceTree = "<group>"; };
+		93E3954D19191032002BC547 /* ClockView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClockView.m; sourceTree = "<group>"; };
+		93E3954E19191032002BC547 /* CLPointView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLPointView.h; sourceTree = "<group>"; };
+		93E3954F19191032002BC547 /* CLPointView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLPointView.m; sourceTree = "<group>"; };
+		93E3955019191032002BC547 /* CLTabBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLTabBarView.h; sourceTree = "<group>"; };
+		93E3955119191032002BC547 /* CLTabBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLTabBarView.m; sourceTree = "<group>"; };
+		93E3955219191032002BC547 /* CLTimeShowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLTimeShowView.h; sourceTree = "<group>"; };
+		93E3955319191032002BC547 /* CLTimeShowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLTimeShowView.m; sourceTree = "<group>"; };
+		93E3955419191032002BC547 /* CLTimeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLTimeView.h; sourceTree = "<group>"; };
+		93E3955519191032002BC547 /* CLTimeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLTimeView.m; sourceTree = "<group>"; };
+		93E395641919106B002BC547 /* CLNotificationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLNotificationManager.h; sourceTree = "<group>"; };
+		93E395651919106B002BC547 /* CLNotificationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLNotificationManager.m; sourceTree = "<group>"; };
+		93E395691919106B002BC547 /* CLAboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLAboutViewController.h; sourceTree = "<group>"; };
+		93E3956A1919106B002BC547 /* CLAboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLAboutViewController.m; sourceTree = "<group>"; };
+		93E3956B1919106B002BC547 /* CLAddViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLAddViewController.h; sourceTree = "<group>"; };
+		93E3956C1919106B002BC547 /* CLAddViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLAddViewController.m; sourceTree = "<group>"; };
+		93E3956D1919106B002BC547 /* CLBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLBaseViewController.h; sourceTree = "<group>"; };
+		93E3956E1919106B002BC547 /* CLBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLBaseViewController.m; sourceTree = "<group>"; };
+		93E3956F1919106B002BC547 /* CLFeedBackViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLFeedBackViewController.h; sourceTree = "<group>"; };
+		93E395701919106B002BC547 /* CLFeedBackViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLFeedBackViewController.m; sourceTree = "<group>"; };
+		93E395711919106B002BC547 /* CLSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLSettingViewController.h; sourceTree = "<group>"; };
+		93E395721919106B002BC547 /* CLSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLSettingViewController.m; sourceTree = "<group>"; };
+		93E3957C19191088002BC547 /* PKAnimation+PKType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PKAnimation+PKType.h"; sourceTree = "<group>"; };
+		93E3957D19191088002BC547 /* PKAnimation+PKType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "PKAnimation+PKType.m"; sourceTree = "<group>"; };
+		93E3957E19191088002BC547 /* UIColor+PKColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+PKColor.h"; sourceTree = "<group>"; };
+		93E3957F19191088002BC547 /* UIColor+PKColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+PKColor.m"; sourceTree = "<group>"; };
+		93E3958019191088002BC547 /* UIFont+PKFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+PKFont.h"; sourceTree = "<group>"; };
+		93E3958119191088002BC547 /* UIFont+PKFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+PKFont.m"; sourceTree = "<group>"; };
+		93E3958219191088002BC547 /* UIImage+PKImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+PKImage.h"; sourceTree = "<group>"; };
+		93E3958319191088002BC547 /* UIImage+PKImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+PKImage.m"; sourceTree = "<group>"; };
+		93E3958419191088002BC547 /* PKResManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKResManager.h; sourceTree = "<group>"; };
+		93E3958519191088002BC547 /* PKResManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKResManager.m; sourceTree = "<group>"; };
+		93E3958619191088002BC547 /* PKResManagerKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKResManagerKit.h; sourceTree = "<group>"; };
+		93E3958F1919120C002BC547 /* libWeChatSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWeChatSDK.a; sourceTree = "<group>"; };
+		93E395901919120C002BC547 /* WXApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
+		93E395911919120C002BC547 /* WXApiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
+		93E395931919132C002BC547 /* skin_needed.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = skin_needed.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,7 +149,7 @@
 			files = (
 				93CB808418156F5100D2CB91 /* CoreGraphics.framework in Frameworks */,
 				93CB808618156F5100D2CB91 /* UIKit.framework in Frameworks */,
-				93E5A1D118B4EE37003E1A09 /* libWeChatSDK.a in Frameworks */,
+				93E395921919120C002BC547 /* libWeChatSDK.a in Frameworks */,
 				93CB808218156F5100D2CB91 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -152,46 +167,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		936422A31861E7DA0002390E /* View */ = {
-			isa = PBXGroup;
-			children = (
-				93E34D8B1881740C005A2E40 /* ClockView.h */,
-				93E34D8C1881740C005A2E40 /* ClockView.m */,
-				936422A01861E7D20002390E /* CLTabBarView.h */,
-				936422A11861E7D20002390E /* CLTabBarView.m */,
-				93D7AE8A186FC5530044ABDB /* CLTimeShowView.h */,
-				93D7AE8B186FC5530044ABDB /* CLTimeShowView.m */,
-				93D7AE8D186FC8040044ABDB /* CLClockView.h */,
-				93D7AE8E186FC8040044ABDB /* CLClockView.m */,
-				93D7AE90186FC8350044ABDB /* CLClockCell.h */,
-				93D7AE91186FC8350044ABDB /* CLClockCell.m */,
-				936D7C14187971490017A97A /* CLAddClockCell.h */,
-				936D7C15187971490017A97A /* CLAddClockCell.m */,
-				936D7C1E18799C880017A97A /* CLTimeView.h */,
-				936D7C1F18799C880017A97A /* CLTimeView.m */,
-				93E34D9F1882A757005A2E40 /* CLPointView.h */,
-				93E34DA01882A757005A2E40 /* CLPointView.m */,
-			);
-			name = View;
-			sourceTree = "<group>";
-		};
-		936D7C17187972DA0017A97A /* ViewController */ = {
-			isa = PBXGroup;
-			children = (
-				936D7C181879730C0017A97A /* CLAddViewController.h */,
-				936D7C191879730C0017A97A /* CLAddViewController.m */,
-				93DA96551891514300E471E5 /* CLBaseViewController.h */,
-				93DA96561891514300E471E5 /* CLBaseViewController.m */,
-				93DA96581891518F00E471E5 /* CLFeedBackViewController.h */,
-				93DA96591891518F00E471E5 /* CLFeedBackViewController.m */,
-				93DA965B1891519C00E471E5 /* CLSettingViewController.h */,
-				93DA965C1891519C00E471E5 /* CLSettingViewController.m */,
-				93DA965E189151AB00E471E5 /* CLAboutViewController.h */,
-				93DA965F189151AB00E471E5 /* CLAboutViewController.m */,
-			);
-			name = ViewController;
-			sourceTree = "<group>";
-		};
 		93CB807518156F5100D2CB91 = {
 			isa = PBXGroup;
 			children = (
@@ -225,13 +200,14 @@
 		93CB808718156F5200D2CB91 /* Clock */ = {
 			isa = PBXGroup;
 			children = (
-				93E5A1CD18B4EE37003E1A09 /* WeChatSDK_1.4.2.1 */,
+				93E3958E1919120C002BC547 /* WeChatSDK_1.4.2.1 */,
+				93E3957A19191088002BC547 /* PKResManager */,
+				93E395631919106B002BC547 /* Manager */,
+				93E395681919106B002BC547 /* ViewController */,
+				93E3954519191032002BC547 /* View */,
 				93E34DA21882D242005A2E40 /* Extend */,
 				93E34D8E1881742F005A2E40 /* Images */,
-				936D7C17187972DA0017A97A /* ViewController */,
-				93E780C11874423F00A3BF95 /* Manager */,
 				93D7AE96186FD2120044ABDB /* Model */,
-				936422A31861E7DA0002390E /* View */,
 				93CB809018156F5200D2CB91 /* CLAppDelegate.h */,
 				93CB809118156F5200D2CB91 /* CLAppDelegate.m */,
 				93CB809318156F5200D2CB91 /* Main.storyboard */,
@@ -285,6 +261,7 @@
 		93E34D8E1881742F005A2E40 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				93E395931919132C002BC547 /* skin_needed.bundle */,
 				93E34D8F1881742F005A2E40 /* -clock-face.png */,
 				93E34D901881742F005A2E40 /* bliss-roman-aluminium-clock.jpg */,
 				93E34D911881742F005A2E40 /* clock-background.png */,
@@ -306,25 +283,89 @@
 			name = Extend;
 			sourceTree = "<group>";
 		};
-		93E5A1CD18B4EE37003E1A09 /* WeChatSDK_1.4.2.1 */ = {
+		93E3954519191032002BC547 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				93E5A1CE18B4EE37003E1A09 /* libWeChatSDK.a */,
-				93E5A1CF18B4EE37003E1A09 /* WXApi.h */,
-				93E5A1D018B4EE37003E1A09 /* WXApiObject.h */,
+				93E3954619191032002BC547 /* CLAddClockCell.h */,
+				93E3954719191032002BC547 /* CLAddClockCell.m */,
+				93E3954819191032002BC547 /* CLClockCell.h */,
+				93E3954919191032002BC547 /* CLClockCell.m */,
+				93E3954A19191032002BC547 /* CLClockView.h */,
+				93E3954B19191032002BC547 /* CLClockView.m */,
+				93E3954C19191032002BC547 /* ClockView.h */,
+				93E3954D19191032002BC547 /* ClockView.m */,
+				93E3954E19191032002BC547 /* CLPointView.h */,
+				93E3954F19191032002BC547 /* CLPointView.m */,
+				93E3955019191032002BC547 /* CLTabBarView.h */,
+				93E3955119191032002BC547 /* CLTabBarView.m */,
+				93E3955219191032002BC547 /* CLTimeShowView.h */,
+				93E3955319191032002BC547 /* CLTimeShowView.m */,
+				93E3955419191032002BC547 /* CLTimeView.h */,
+				93E3955519191032002BC547 /* CLTimeView.m */,
 			);
-			path = WeChatSDK_1.4.2.1;
+			path = View;
 			sourceTree = "<group>";
 		};
-		93E780C11874423F00A3BF95 /* Manager */ = {
+		93E395631919106B002BC547 /* Manager */ = {
 			isa = PBXGroup;
 			children = (
-				93E780C21874443A00A3BF95 /* CLNotificationManager.h */,
-				93E780C31874443A00A3BF95 /* CLNotificationManager.m */,
-				93E5A1D218B4EE74003E1A09 /* CLWeChatManager.h */,
-				93E5A1D318B4EE74003E1A09 /* CLWeChatManager.m */,
+				93E395641919106B002BC547 /* CLNotificationManager.h */,
+				93E395651919106B002BC547 /* CLNotificationManager.m */,
 			);
-			name = Manager;
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		93E395681919106B002BC547 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				93E395691919106B002BC547 /* CLAboutViewController.h */,
+				93E3956A1919106B002BC547 /* CLAboutViewController.m */,
+				93E3956B1919106B002BC547 /* CLAddViewController.h */,
+				93E3956C1919106B002BC547 /* CLAddViewController.m */,
+				93E3956D1919106B002BC547 /* CLBaseViewController.h */,
+				93E3956E1919106B002BC547 /* CLBaseViewController.m */,
+				93E3956F1919106B002BC547 /* CLFeedBackViewController.h */,
+				93E395701919106B002BC547 /* CLFeedBackViewController.m */,
+				93E395711919106B002BC547 /* CLSettingViewController.h */,
+				93E395721919106B002BC547 /* CLSettingViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		93E3957A19191088002BC547 /* PKResManager */ = {
+			isa = PBXGroup;
+			children = (
+				93E3957B19191088002BC547 /* Additions */,
+				93E3958419191088002BC547 /* PKResManager.h */,
+				93E3958519191088002BC547 /* PKResManager.m */,
+				93E3958619191088002BC547 /* PKResManagerKit.h */,
+			);
+			path = PKResManager;
+			sourceTree = "<group>";
+		};
+		93E3957B19191088002BC547 /* Additions */ = {
+			isa = PBXGroup;
+			children = (
+				93E3957C19191088002BC547 /* PKAnimation+PKType.h */,
+				93E3957D19191088002BC547 /* PKAnimation+PKType.m */,
+				93E3957E19191088002BC547 /* UIColor+PKColor.h */,
+				93E3957F19191088002BC547 /* UIColor+PKColor.m */,
+				93E3958019191088002BC547 /* UIFont+PKFont.h */,
+				93E3958119191088002BC547 /* UIFont+PKFont.m */,
+				93E3958219191088002BC547 /* UIImage+PKImage.h */,
+				93E3958319191088002BC547 /* UIImage+PKImage.m */,
+			);
+			path = Additions;
+			sourceTree = "<group>";
+		};
+		93E3958E1919120C002BC547 /* WeChatSDK_1.4.2.1 */ = {
+			isa = PBXGroup;
+			children = (
+				93E3958F1919120C002BC547 /* libWeChatSDK.a */,
+				93E395901919120C002BC547 /* WXApi.h */,
+				93E395911919120C002BC547 /* WXApiObject.h */,
+			);
+			path = WeChatSDK_1.4.2.1;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -418,6 +459,7 @@
 				93CB809518156F5200D2CB91 /* Main.storyboard in Resources */,
 				93E34D9A1881742F005A2E40 /* clock-hour-background.png in Resources */,
 				93E34D9B1881742F005A2E40 /* clock-min-background.png in Resources */,
+				93E395941919132C002BC547 /* skin_needed.bundle in Resources */,
 				93E34D9C1881742F005A2E40 /* clock-min-background_.png in Resources */,
 				93E34D981881742F005A2E40 /* bliss-roman-aluminium-clock.jpg in Resources */,
 				93E34D9D1881742F005A2E40 /* clock-sec-background.png in Resources */,
@@ -440,26 +482,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				93D7AE8C186FC5530044ABDB /* CLTimeShowView.m in Sources */,
-				93E34D8D1881740C005A2E40 /* ClockView.m in Sources */,
-				93DA9660189151AB00E471E5 /* CLAboutViewController.m in Sources */,
-				93DA965D1891519C00E471E5 /* CLSettingViewController.m in Sources */,
-				93E34DA11882A757005A2E40 /* CLPointView.m in Sources */,
-				93DA965A1891518F00E471E5 /* CLFeedBackViewController.m in Sources */,
-				93E5A1D418B4EE74003E1A09 /* CLWeChatManager.m in Sources */,
-				936D7C16187971490017A97A /* CLAddClockCell.m in Sources */,
-				93E780C41874443A00A3BF95 /* CLNotificationManager.m in Sources */,
-				936D7C1A1879730C0017A97A /* CLAddViewController.m in Sources */,
-				93D7AE92186FC8350044ABDB /* CLClockCell.m in Sources */,
+				93E3955D19191032002BC547 /* ClockView.m in Sources */,
+				93E395761919106B002BC547 /* CLAddViewController.m in Sources */,
+				93E395771919106B002BC547 /* CLBaseViewController.m in Sources */,
+				93E3956119191032002BC547 /* CLTimeView.m in Sources */,
+				93E3958719191088002BC547 /* PKAnimation+PKType.m in Sources */,
+				93E3956019191032002BC547 /* CLTimeShowView.m in Sources */,
 				93CB808E18156F5200D2CB91 /* main.m in Sources */,
+				93E3955B19191032002BC547 /* CLClockCell.m in Sources */,
+				93E395731919106B002BC547 /* CLNotificationManager.m in Sources */,
+				93E3955A19191032002BC547 /* CLAddClockCell.m in Sources */,
 				93CB809218156F5200D2CB91 /* CLAppDelegate.m in Sources */,
+				93E3958819191088002BC547 /* UIColor+PKColor.m in Sources */,
 				93E34DA81882D2C7005A2E40 /* NSDate+CLAdditions.m in Sources */,
-				93DA96571891514300E471E5 /* CLBaseViewController.m in Sources */,
+				93E395791919106B002BC547 /* CLSettingViewController.m in Sources */,
 				93D7AE95186FD2020044ABDB /* CLClockObject.m in Sources */,
-				936D7C2018799C880017A97A /* CLTimeView.m in Sources */,
+				93E395751919106B002BC547 /* CLAboutViewController.m in Sources */,
+				93E3958919191088002BC547 /* UIFont+PKFont.m in Sources */,
+				93E3955C19191032002BC547 /* CLClockView.m in Sources */,
+				93E3958B19191088002BC547 /* PKResManager.m in Sources */,
+				93E395781919106B002BC547 /* CLFeedBackViewController.m in Sources */,
+				93E3955E19191032002BC547 /* CLPointView.m in Sources */,
 				93CB809818156F5200D2CB91 /* CLViewController.m in Sources */,
-				93D7AE8F186FC8040044ABDB /* CLClockView.m in Sources */,
-				936422A21861E7D20002390E /* CLTabBarView.m in Sources */,
+				93E3958A19191088002BC547 /* UIImage+PKImage.m in Sources */,
+				93E3955F19191032002BC547 /* CLTabBarView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -593,6 +639,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					/Users/wangtao/GitHub/Clock/Clock/Clock/WeChatSDK_1.4.2.1,
+					"$(PROJECT_DIR)/Clock/WeChatSDK_1.4.2.1",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
@@ -612,6 +659,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					/Users/wangtao/GitHub/Clock/Clock/Clock/WeChatSDK_1.4.2.1,
+					"$(PROJECT_DIR)/Clock/WeChatSDK_1.4.2.1",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;

@@ -15,6 +15,8 @@
     // Override point for customization after application launch.
     //获取未处理的消息通知
     UILocalNotification * localNotif=[launchOptions objectForKey:UIApplicationLaunchOptionsLocalNotificationKey];
+
+    [WXApi registerApp:WXAPPID];
     return YES;
 }
 							
@@ -52,11 +54,11 @@
 
 - (BOOL)application:(UIApplication *)application handleOpenURL:(NSURL *)url
 {
-    return  [[CLWeChatManager sharedManager] handleOpenURL:url];
+    return YES;
 }
 
 - (BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation
 {
-    return  [[CLWeChatManager sharedManager] handleOpenURL:url];
+    return YES;
 }
 @end

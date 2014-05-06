@@ -8,6 +8,9 @@
 
 #import "CLViewController.h"
 #import "CLNotificationManager.h"
+#import "CLAboutViewController.h"
+#import "CLSettingViewController.h"
+#import "CLFeedBackViewController.h"
 
 #define kLeftMargin 10
 #define kTopMargin 20
@@ -98,7 +101,67 @@
 
 - (void)tabbarButtonClick:(CLTabBarView *)tabbar type:(CLTabBarType)type
 {
+    switch (type) {
+        case CLTabBarTypeRecommend:
+            [self sendTextMessageToWeixin:1];
+            break;
+        case CLTabBarTypeFeedBack:
+            [self showFeedBackViewController];
+            break;
+        case CLTabBarTypeSetting:
+            [self showSettingViewController];
+            break;
+        case CLTabBarTypeAbout:
+            [self showAboutViewController];
+            break;
+        default:
+            break;
+    }
+}
+//微信分享代码
+- (void)sendTextMessageToWeixin:(int)scene{
+    NSString *url = @"http://www.baidu.com";
+    if ([WXApi isWXAppSupportApi]) {
+        WXMediaMessage *message = [WXMediaMessage message];
+        message.title = @"messageTitle";
+        message.description = @"description";
 
+        WXWebpageObject *ext = [WXWebpageObject object];
+        ext.webpageUrl = url;
+        message.mediaObject = ext;
+        [message setThumbImage:[UIImage imageForKey:@"lbs_avatar_emotions"]];
+
+        SendMessageToWXReq* req = [[SendMessageToWXReq alloc] init];
+        req.message = message;
+        req.scene = scene;
+        req.bText = NO;
+        [WXApi sendReq:req];
+    }else{
+        UIAlertView *alertView = [[UIAlertView alloc]initWithTitle:@"维信版本太低，暂不支持分享" message:nil delegate:nil cancelButtonTitle:@"确认" otherButtonTitles:nil, nil];
+        [alertView show];
+
+    }
+}
+
+- (void)showFeedBackViewController
+{
+    CLFeedBackViewController *feedBackVC = [[CLFeedBackViewController alloc]init];
+    [self.navigationController presentViewController:feedBackVC animated:YES completion:^{
+    }];
+}
+
+- (void)showSettingViewController
+{
+    CLSettingViewController *settingVC = [[CLSettingViewController alloc]init];
+    [self.navigationController presentViewController:settingVC animated:YES completion:^{
+    }];
+}
+
+- (void)showAboutViewController
+{
+    CLAboutViewController *aboutVC = [[CLAboutViewController alloc]init];
+    [self.navigationController presentViewController:aboutVC animated:YES completion:^{
+    }];
 }
 
 - (NSString *)stringFromDate:(NSDate *)date{
