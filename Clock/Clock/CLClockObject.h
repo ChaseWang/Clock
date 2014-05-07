@@ -10,8 +10,8 @@
 
 @interface CLClockObject : NSObject<NSCoding>
 @property (nonatomic, assign) BOOL isOpen;
-@property (nonatomic, strong) NSDate *clockDate;
-@property (nonatomic, strong) NSDate *fireDate;
+@property (nonatomic, strong) NSDate *clockDate;    //定时时间
+@property (nonatomic, strong) NSDate *fireDate;     //闹钟响起时间
 @property (nonatomic, assign) NSCalendarUnit repeatInterval;
 @property (nonatomic, copy) NSString *alertBody;
 @property (nonatomic, copy) NSString *soundName;

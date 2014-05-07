@@ -19,6 +19,7 @@
         self.timeLable = [[UILabel alloc]initWithFrame:CGRectMake(10, 10, self.frame.size.width, 20)];
         [self.timeLable setBackgroundColor:[UIColor clearColor]];
         [self addSubview:self.timeLable];
+        self.selectionStyle = UITableViewCellSelectionStyleNone;
     }
     return self;
 }
@@ -30,4 +31,8 @@
     // Configure the view for the selected state
 }
 
+- (void)setObject:(CLClockObject *)object
+{
+    self.timeLable.text =  [object.fireDate dateToString:@"HH:mm"];
+}
 @end

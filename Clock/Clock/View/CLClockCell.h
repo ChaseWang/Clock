@@ -7,8 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "CLClockObject.h"
 
 @interface CLClockCell : UITableViewCell
+@property (nonatomic, strong) CLClockObject *clockObject;
 @property (nonatomic, strong) UILabel *timeLable;
 @property (nonatomic, strong) UIImageView *statusLable;
+
+- (void)setObject:(CLClockObject *)object;
 @end

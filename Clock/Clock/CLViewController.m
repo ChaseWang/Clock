@@ -80,14 +80,16 @@
     if (!cell) {
         cell = [[CLClockCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:clockIdentifier];
     }
-
-    cell.timeLable.text =  [obj.fireDate dateToString:@"HH:mm"];
+    [cell setObject:obj];
     return cell;
 
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
+    //CLClockCell *cell = (CLClockCell *)[tableView cellForRowAtIndexPath:indexPath];
+    NSURL *soundUrl = [NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"mute" ofType:@"mp3"]];
+    [[CLAudioPlayManager shareInstance] playSoundOfFile:soundUrl];
 }
 
 - (void)addClockButtonClick:(id)sender
@@ -180,7 +182,6 @@
 - (void)addClockCancel:(CLClockObject *)clock
 {
     [self.navigationController dismissViewControllerAnimated:YES completion:^{
-
     }];
 }
 

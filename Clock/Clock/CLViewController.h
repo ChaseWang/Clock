@@ -13,6 +13,7 @@
 #import "CLClockCell.h"
 #import "CLAddClockCell.h"
 #import "CLTimeView.h"
+#import "CLAudioPlayManager.h"
 
 @interface CLViewController : UIViewController<CLTabBarDelegate,CLAddViewVControllerDelegate,UITableViewDelegate,UITableViewDataSource>
 @property (nonatomic, strong) CLClockView *clockTableView;

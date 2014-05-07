@@ -22,14 +22,6 @@
 		93CB80AB18156F5200D2CB91 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 93CB80A918156F5200D2CB91 /* InfoPlist.strings */; };
 		93CB80AD18156F5200D2CB91 /* ClockTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 93CB80AC18156F5200D2CB91 /* ClockTests.m */; };
 		93D7AE95186FD2020044ABDB /* CLClockObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 93D7AE94186FD2020044ABDB /* CLClockObject.m */; };
-		93E34D971881742F005A2E40 /* -clock-face.png in Resources */ = {isa = PBXBuildFile; fileRef = 93E34D8F1881742F005A2E40 /* -clock-face.png */; };
-		93E34D981881742F005A2E40 /* bliss-roman-aluminium-clock.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 93E34D901881742F005A2E40 /* bliss-roman-aluminium-clock.jpg */; };
-		93E34D991881742F005A2E40 /* clock-background.png in Resources */ = {isa = PBXBuildFile; fileRef = 93E34D911881742F005A2E40 /* clock-background.png */; };
-		93E34D9A1881742F005A2E40 /* clock-hour-background.png in Resources */ = {isa = PBXBuildFile; fileRef = 93E34D921881742F005A2E40 /* clock-hour-background.png */; };
-		93E34D9B1881742F005A2E40 /* clock-min-background.png in Resources */ = {isa = PBXBuildFile; fileRef = 93E34D931881742F005A2E40 /* clock-min-background.png */; };
-		93E34D9C1881742F005A2E40 /* clock-min-background_.png in Resources */ = {isa = PBXBuildFile; fileRef = 93E34D941881742F005A2E40 /* clock-min-background_.png */; };
-		93E34D9D1881742F005A2E40 /* clock-sec-background.png in Resources */ = {isa = PBXBuildFile; fileRef = 93E34D951881742F005A2E40 /* clock-sec-background.png */; };
-		93E34D9E1881742F005A2E40 /* OutputSample.png in Resources */ = {isa = PBXBuildFile; fileRef = 93E34D961881742F005A2E40 /* OutputSample.png */; };
 		93E34DA81882D2C7005A2E40 /* NSDate+CLAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E34DA71882D2C7005A2E40 /* NSDate+CLAdditions.m */; };
 		93E3955A19191032002BC547 /* CLAddClockCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E3954719191032002BC547 /* CLAddClockCell.m */; };
 		93E3955B19191032002BC547 /* CLClockCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E3954919191032002BC547 /* CLClockCell.m */; };
@@ -51,7 +43,23 @@
 		93E3958A19191088002BC547 /* UIImage+PKImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E3958319191088002BC547 /* UIImage+PKImage.m */; };
 		93E3958B19191088002BC547 /* PKResManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E3958519191088002BC547 /* PKResManager.m */; };
 		93E395921919120C002BC547 /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 93E3958F1919120C002BC547 /* libWeChatSDK.a */; };
-		93E395941919132C002BC547 /* skin_needed.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 93E395931919132C002BC547 /* skin_needed.bundle */; };
+		93E54F281919DEE400A887B0 /* -clock-face.png in Resources */ = {isa = PBXBuildFile; fileRef = 93E54F181919DEE400A887B0 /* -clock-face.png */; };
+		93E54F291919DEE400A887B0 /* bliss-roman-aluminium-clock.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 93E54F191919DEE400A887B0 /* bliss-roman-aluminium-clock.jpg */; };
+		93E54F2A1919DEE400A887B0 /* clock-background.png in Resources */ = {isa = PBXBuildFile; fileRef = 93E54F1A1919DEE400A887B0 /* clock-background.png */; };
+		93E54F2B1919DEE400A887B0 /* clock-hour-background.png in Resources */ = {isa = PBXBuildFile; fileRef = 93E54F1B1919DEE400A887B0 /* clock-hour-background.png */; };
+		93E54F2C1919DEE400A887B0 /* clock-min-background.png in Resources */ = {isa = PBXBuildFile; fileRef = 93E54F1C1919DEE400A887B0 /* clock-min-background.png */; };
+		93E54F2D1919DEE400A887B0 /* clock-min-background_.png in Resources */ = {isa = PBXBuildFile; fileRef = 93E54F1D1919DEE400A887B0 /* clock-min-background_.png */; };
+		93E54F2E1919DEE400A887B0 /* clock-sec-background.png in Resources */ = {isa = PBXBuildFile; fileRef = 93E54F1E1919DEE400A887B0 /* clock-sec-background.png */; };
+		93E54F2F1919DEE400A887B0 /* OutputSample.png in Resources */ = {isa = PBXBuildFile; fileRef = 93E54F1F1919DEE400A887B0 /* OutputSample.png */; };
+		93E54F301919DEE400A887B0 /* skin_needed.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 93E54F201919DEE400A887B0 /* skin_needed.bundle */; };
+		93E54F311919DEE400A887B0 /* bready_normal.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 93E54F221919DEE400A887B0 /* bready_normal.mp3 */; };
+		93E54F321919DEE400A887B0 /* chicken_normal.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 93E54F231919DEE400A887B0 /* chicken_normal.mp3 */; };
+		93E54F331919DEE400A887B0 /* darkcat_normal.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 93E54F241919DEE400A887B0 /* darkcat_normal.mp3 */; };
+		93E54F341919DEE400A887B0 /* lengtoo_bgm.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 93E54F251919DEE400A887B0 /* lengtoo_bgm.mp3 */; };
+		93E54F351919DEE400A887B0 /* mute.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 93E54F261919DEE400A887B0 /* mute.mp3 */; };
+		93E54F361919DEE400A887B0 /* tinyfarm_bgm.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 93E54F271919DEE400A887B0 /* tinyfarm_bgm.mp3 */; };
+		93E54F391919E08300A887B0 /* CLAudioPlayManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E54F381919E08300A887B0 /* CLAudioPlayManager.m */; };
+		93E54F3D1919E7AF00A887B0 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93E54F3C1919E7AF00A887B0 /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -87,14 +95,6 @@
 		93CB80AC18156F5200D2CB91 /* ClockTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClockTests.m; sourceTree = "<group>"; };
 		93D7AE93186FD2020044ABDB /* CLClockObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLClockObject.h; sourceTree = "<group>"; };
 		93D7AE94186FD2020044ABDB /* CLClockObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLClockObject.m; sourceTree = "<group>"; };
-		93E34D8F1881742F005A2E40 /* -clock-face.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "-clock-face.png"; sourceTree = "<group>"; };
-		93E34D901881742F005A2E40 /* bliss-roman-aluminium-clock.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "bliss-roman-aluminium-clock.jpg"; sourceTree = "<group>"; };
-		93E34D911881742F005A2E40 /* clock-background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clock-background.png"; sourceTree = "<group>"; };
-		93E34D921881742F005A2E40 /* clock-hour-background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clock-hour-background.png"; sourceTree = "<group>"; };
-		93E34D931881742F005A2E40 /* clock-min-background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clock-min-background.png"; sourceTree = "<group>"; };
-		93E34D941881742F005A2E40 /* clock-min-background_.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clock-min-background_.png"; sourceTree = "<group>"; };
-		93E34D951881742F005A2E40 /* clock-sec-background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clock-sec-background.png"; sourceTree = "<group>"; };
-		93E34D961881742F005A2E40 /* OutputSample.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = OutputSample.png; sourceTree = "<group>"; };
 		93E34DA61882D2C7005A2E40 /* NSDate+CLAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+CLAdditions.h"; sourceTree = "<group>"; };
 		93E34DA71882D2C7005A2E40 /* NSDate+CLAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+CLAdditions.m"; sourceTree = "<group>"; };
 		93E3954619191032002BC547 /* CLAddClockCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLAddClockCell.h; sourceTree = "<group>"; };
@@ -139,7 +139,24 @@
 		93E3958F1919120C002BC547 /* libWeChatSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWeChatSDK.a; sourceTree = "<group>"; };
 		93E395901919120C002BC547 /* WXApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
 		93E395911919120C002BC547 /* WXApiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
-		93E395931919132C002BC547 /* skin_needed.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = skin_needed.bundle; sourceTree = "<group>"; };
+		93E54F181919DEE400A887B0 /* -clock-face.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "-clock-face.png"; sourceTree = "<group>"; };
+		93E54F191919DEE400A887B0 /* bliss-roman-aluminium-clock.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "bliss-roman-aluminium-clock.jpg"; sourceTree = "<group>"; };
+		93E54F1A1919DEE400A887B0 /* clock-background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clock-background.png"; sourceTree = "<group>"; };
+		93E54F1B1919DEE400A887B0 /* clock-hour-background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clock-hour-background.png"; sourceTree = "<group>"; };
+		93E54F1C1919DEE400A887B0 /* clock-min-background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clock-min-background.png"; sourceTree = "<group>"; };
+		93E54F1D1919DEE400A887B0 /* clock-min-background_.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clock-min-background_.png"; sourceTree = "<group>"; };
+		93E54F1E1919DEE400A887B0 /* clock-sec-background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clock-sec-background.png"; sourceTree = "<group>"; };
+		93E54F1F1919DEE400A887B0 /* OutputSample.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = OutputSample.png; sourceTree = "<group>"; };
+		93E54F201919DEE400A887B0 /* skin_needed.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = skin_needed.bundle; sourceTree = "<group>"; };
+		93E54F221919DEE400A887B0 /* bready_normal.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bready_normal.mp3; sourceTree = "<group>"; };
+		93E54F231919DEE400A887B0 /* chicken_normal.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = chicken_normal.mp3; sourceTree = "<group>"; };
+		93E54F241919DEE400A887B0 /* darkcat_normal.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = darkcat_normal.mp3; sourceTree = "<group>"; };
+		93E54F251919DEE400A887B0 /* lengtoo_bgm.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = lengtoo_bgm.mp3; sourceTree = "<group>"; };
+		93E54F261919DEE400A887B0 /* mute.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = mute.mp3; sourceTree = "<group>"; };
+		93E54F271919DEE400A887B0 /* tinyfarm_bgm.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tinyfarm_bgm.mp3; sourceTree = "<group>"; };
+		93E54F371919E08300A887B0 /* CLAudioPlayManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLAudioPlayManager.h; sourceTree = "<group>"; };
+		93E54F381919E08300A887B0 /* CLAudioPlayManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLAudioPlayManager.m; sourceTree = "<group>"; };
+		93E54F3C1919E7AF00A887B0 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,6 +164,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93E54F3D1919E7AF00A887B0 /* AVFoundation.framework in Frameworks */,
 				93CB808418156F5100D2CB91 /* CoreGraphics.framework in Frameworks */,
 				93CB808618156F5100D2CB91 /* UIKit.framework in Frameworks */,
 				93E395921919120C002BC547 /* libWeChatSDK.a in Frameworks */,
@@ -189,6 +207,7 @@
 		93CB808018156F5100D2CB91 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				93E54F3C1919E7AF00A887B0 /* AVFoundation.framework */,
 				93CB808118156F5100D2CB91 /* Foundation.framework */,
 				93CB808318156F5100D2CB91 /* CoreGraphics.framework */,
 				93CB808518156F5100D2CB91 /* UIKit.framework */,
@@ -200,13 +219,13 @@
 		93CB808718156F5200D2CB91 /* Clock */ = {
 			isa = PBXGroup;
 			children = (
+				93E54F161919DEE400A887B0 /* Resource */,
 				93E3958E1919120C002BC547 /* WeChatSDK_1.4.2.1 */,
 				93E3957A19191088002BC547 /* PKResManager */,
 				93E395631919106B002BC547 /* Manager */,
 				93E395681919106B002BC547 /* ViewController */,
 				93E3954519191032002BC547 /* View */,
 				93E34DA21882D242005A2E40 /* Extend */,
-				93E34D8E1881742F005A2E40 /* Images */,
 				93D7AE96186FD2120044ABDB /* Model */,
 				93CB809018156F5200D2CB91 /* CLAppDelegate.h */,
 				93CB809118156F5200D2CB91 /* CLAppDelegate.m */,
@@ -258,22 +277,6 @@
 			name = Model;
 			sourceTree = "<group>";
 		};
-		93E34D8E1881742F005A2E40 /* Images */ = {
-			isa = PBXGroup;
-			children = (
-				93E395931919132C002BC547 /* skin_needed.bundle */,
-				93E34D8F1881742F005A2E40 /* -clock-face.png */,
-				93E34D901881742F005A2E40 /* bliss-roman-aluminium-clock.jpg */,
-				93E34D911881742F005A2E40 /* clock-background.png */,
-				93E34D921881742F005A2E40 /* clock-hour-background.png */,
-				93E34D931881742F005A2E40 /* clock-min-background.png */,
-				93E34D941881742F005A2E40 /* clock-min-background_.png */,
-				93E34D951881742F005A2E40 /* clock-sec-background.png */,
-				93E34D961881742F005A2E40 /* OutputSample.png */,
-			);
-			path = Images;
-			sourceTree = "<group>";
-		};
 		93E34DA21882D242005A2E40 /* Extend */ = {
 			isa = PBXGroup;
 			children = (
@@ -311,6 +314,8 @@
 			children = (
 				93E395641919106B002BC547 /* CLNotificationManager.h */,
 				93E395651919106B002BC547 /* CLNotificationManager.m */,
+				93E54F371919E08300A887B0 /* CLAudioPlayManager.h */,
+				93E54F381919E08300A887B0 /* CLAudioPlayManager.m */,
 			);
 			path = Manager;
 			sourceTree = "<group>";
@@ -368,6 +373,44 @@
 			path = WeChatSDK_1.4.2.1;
 			sourceTree = "<group>";
 		};
+		93E54F161919DEE400A887B0 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				93E54F171919DEE400A887B0 /* Images */,
+				93E54F211919DEE400A887B0 /* Sounds */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		93E54F171919DEE400A887B0 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				93E54F181919DEE400A887B0 /* -clock-face.png */,
+				93E54F191919DEE400A887B0 /* bliss-roman-aluminium-clock.jpg */,
+				93E54F1A1919DEE400A887B0 /* clock-background.png */,
+				93E54F1B1919DEE400A887B0 /* clock-hour-background.png */,
+				93E54F1C1919DEE400A887B0 /* clock-min-background.png */,
+				93E54F1D1919DEE400A887B0 /* clock-min-background_.png */,
+				93E54F1E1919DEE400A887B0 /* clock-sec-background.png */,
+				93E54F1F1919DEE400A887B0 /* OutputSample.png */,
+				93E54F201919DEE400A887B0 /* skin_needed.bundle */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		93E54F211919DEE400A887B0 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				93E54F221919DEE400A887B0 /* bready_normal.mp3 */,
+				93E54F231919DEE400A887B0 /* chicken_normal.mp3 */,
+				93E54F241919DEE400A887B0 /* darkcat_normal.mp3 */,
+				93E54F251919DEE400A887B0 /* lengtoo_bgm.mp3 */,
+				93E54F261919DEE400A887B0 /* mute.mp3 */,
+				93E54F271919DEE400A887B0 /* tinyfarm_bgm.mp3 */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -419,7 +462,7 @@
 					93CB807D18156F5100D2CB91 = {
 						SystemCapabilities = {
 							com.apple.BackgroundModes = {
-								enabled = 0;
+								enabled = 1;
 							};
 						};
 					};
@@ -452,18 +495,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				93E34D991881742F005A2E40 /* clock-background.png in Resources */,
+				93E54F2A1919DEE400A887B0 /* clock-background.png in Resources */,
+				93E54F361919DEE400A887B0 /* tinyfarm_bgm.mp3 in Resources */,
 				93CB809A18156F5200D2CB91 /* Images.xcassets in Resources */,
+				93E54F331919DEE400A887B0 /* darkcat_normal.mp3 in Resources */,
 				93CB808C18156F5200D2CB91 /* InfoPlist.strings in Resources */,
-				93E34D9E1881742F005A2E40 /* OutputSample.png in Resources */,
+				93E54F311919DEE400A887B0 /* bready_normal.mp3 in Resources */,
+				93E54F2F1919DEE400A887B0 /* OutputSample.png in Resources */,
 				93CB809518156F5200D2CB91 /* Main.storyboard in Resources */,
-				93E34D9A1881742F005A2E40 /* clock-hour-background.png in Resources */,
-				93E34D9B1881742F005A2E40 /* clock-min-background.png in Resources */,
-				93E395941919132C002BC547 /* skin_needed.bundle in Resources */,
-				93E34D9C1881742F005A2E40 /* clock-min-background_.png in Resources */,
-				93E34D981881742F005A2E40 /* bliss-roman-aluminium-clock.jpg in Resources */,
-				93E34D9D1881742F005A2E40 /* clock-sec-background.png in Resources */,
-				93E34D971881742F005A2E40 /* -clock-face.png in Resources */,
+				93E54F2B1919DEE400A887B0 /* clock-hour-background.png in Resources */,
+				93E54F2C1919DEE400A887B0 /* clock-min-background.png in Resources */,
+				93E54F301919DEE400A887B0 /* skin_needed.bundle in Resources */,
+				93E54F341919DEE400A887B0 /* lengtoo_bgm.mp3 in Resources */,
+				93E54F321919DEE400A887B0 /* chicken_normal.mp3 in Resources */,
+				93E54F2D1919DEE400A887B0 /* clock-min-background_.png in Resources */,
+				93E54F291919DEE400A887B0 /* bliss-roman-aluminium-clock.jpg in Resources */,
+				93E54F2E1919DEE400A887B0 /* clock-sec-background.png in Resources */,
+				93E54F281919DEE400A887B0 /* -clock-face.png in Resources */,
+				93E54F351919DEE400A887B0 /* mute.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -489,6 +538,7 @@
 				93E3958719191088002BC547 /* PKAnimation+PKType.m in Sources */,
 				93E3956019191032002BC547 /* CLTimeShowView.m in Sources */,
 				93CB808E18156F5200D2CB91 /* main.m in Sources */,
+				93E54F391919E08300A887B0 /* CLAudioPlayManager.m in Sources */,
 				93E3955B19191032002BC547 /* CLClockCell.m in Sources */,
 				93E395731919106B002BC547 /* CLNotificationManager.m in Sources */,
 				93E3955A19191032002BC547 /* CLAddClockCell.m in Sources */,

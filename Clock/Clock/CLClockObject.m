@@ -48,4 +48,12 @@
     [aCoder encodeObject:[NSNumber numberWithBool:self.isOpen] forKey:@"isOpen"];
     [aCoder encodeObject:self.clockDate forKey:@"clockDate"];
 }
+
+- (void)setIsOpen:(BOOL)isOpen
+{
+    _isOpen = isOpen;
+    if (isOpen) {
+    }else{
+    }
+}
 @end

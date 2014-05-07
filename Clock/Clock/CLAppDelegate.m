@@ -15,7 +15,7 @@
     // Override point for customization after application launch.
     //获取未处理的消息通知
     UILocalNotification * localNotif=[launchOptions objectForKey:UIApplicationLaunchOptionsLocalNotificationKey];
-
+    NSLog(@"获取到本地通知%@",localNotif);
     [WXApi registerApp:WXAPPID];
     return YES;
 }
